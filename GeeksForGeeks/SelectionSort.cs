@@ -3,9 +3,11 @@ namespace GeeksForGeeks
 {
     public class SelectionSort
     {
-		//The sort algorithm has a sorted and unsorted sets.
+		//The sort algorithm has a sorted and unsorted sections.
 		//The algorithm moves through the unsorted sections and moves the minimum element to the front
 
+
+        //Example:
 		//Input: [64, 25, 12, 22, 11]
 
 		//Pass 1: [11, 25, 12, 22, 64]
@@ -13,8 +15,9 @@ namespace GeeksForGeeks
 		//Pass 3: [11, 12, 22, 25, 64]
         //Pass 4: [11, 12, 22, 25, 64] => You can see this is redundant, could be optimized
 
-
-
+        //Time complexity is O(n^2) because of two nested loops.
+        //Auxilary space is O(1), it never makes more than n swaps and is used when
+        //memory write is a costly operation.
 
 		public void Run(int[] inputArr)
         {

@@ -3,9 +3,7 @@ namespace GeeksForGeeks
 {
     public class Swap
     {
-        public Swap()
-        {
-        }
+        //Swap just swaps two integers in conastant O(1) time complexity.
 
         public void Run(int x, int y)
         {
