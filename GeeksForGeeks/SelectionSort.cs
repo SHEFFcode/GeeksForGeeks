@@ -34,11 +34,20 @@ namespace GeeksForGeeks
                 {
 					if (inputArr[j] < inputArr[lowestItemIndex])
                     {
-                        var temp = inputArr[j];
-                        inputArr[j] = inputArr[lowestItemIndex];
-                        inputArr[lowestItemIndex] = temp;
+                        lowestItemIndex = j;
                     }
                 }
+
+                //This is an optimization to prevent swapping if lowest index is equal to i.
+                //aka the second for loops if statement is evaluated to false.
+                if (lowestItemIndex != i)
+                {
+					var temp = inputArr[lowestItemIndex];
+					inputArr[lowestItemIndex] = inputArr[i];
+					inputArr[i] = temp;
+                }
+
+
             }
 
             foreach (var item in inputArr)

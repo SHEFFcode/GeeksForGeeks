@@ -3,8 +3,6 @@ namespace GeeksForGeeks
 {
     public class InsertionSort
     {
-        public InsertionSort()
-        {
-        }
+        //Insertion sort 
     }
 }
