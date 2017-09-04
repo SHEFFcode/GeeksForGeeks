@@ -6,7 +6,8 @@ namespace GeeksForGeeks
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var swap = new Swap();
+            swap.Run(5, 10);
         }
     }
 }

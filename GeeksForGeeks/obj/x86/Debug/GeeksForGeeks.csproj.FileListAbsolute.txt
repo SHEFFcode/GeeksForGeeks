@@ -1,0 +1,5 @@
+/Users/sheffmachine/Projects/GeeksForGeeks/GeeksForGeeks/bin/Debug/GeeksForGeeks.exe
+/Users/sheffmachine/Projects/GeeksForGeeks/GeeksForGeeks/bin/Debug/GeeksForGeeks.pdb
+/Users/sheffmachine/Projects/GeeksForGeeks/GeeksForGeeks/obj/x86/Debug/GeeksForGeeks.csproj.CoreCompileInputs.cache
+/Users/sheffmachine/Projects/GeeksForGeeks/GeeksForGeeks/obj/x86/Debug/GeeksForGeeks.exe
+/Users/sheffmachine/Projects/GeeksForGeeks/GeeksForGeeks/obj/x86/Debug/GeeksForGeeks.pdb
