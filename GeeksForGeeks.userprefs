@@ -1,11 +1,12 @@
 ﻿<Properties StartupConfiguration="{464CAC26-E134-4F4C-B44D-669B76CAB87B}|Default">
   <MonoDevelop.Ide.ItemProperties.GeeksForGeeks PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="GeeksForGeeks/InsertionSort.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GeeksForGeeks/BinarySearch.cs">
     <Files>
-      <File FileName="GeeksForGeeks/Program.cs" Line="10" Column="29" />
-      <File FileName="GeeksForGeeks/Swap.cs" Line="14" Column="26" />
-      <File FileName="GeeksForGeeks/SelectionSort.cs" Line="29" Column="62" />
-      <File FileName="GeeksForGeeks/InsertionSort.cs" Line="6" Column="26" />
+      <File FileName="GeeksForGeeks/Program.cs" Line="13" Column="63" />
+      <File FileName="GeeksForGeeks/Swap.cs" Line="6" Column="74" />
+      <File FileName="GeeksForGeeks/SelectionSort.cs" Line="33" Column="41" />
+      <File FileName="GeeksForGeeks/InsertionSort.cs" Line="33" Column="127" />
+      <File FileName="GeeksForGeeks/BinarySearch.cs" Line="6" Column="11" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
