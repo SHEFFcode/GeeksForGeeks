@@ -18,6 +18,11 @@ namespace GeeksForGeeks
             var binarySearch = new BinarySearch();
             binarySearch.RunRecursive(new int[] { 0, 2, 3, 4, 10, 40, 44 }, 2, 0, 6);
             binarySearch.RunIterative(new int[] { 0, 2, 3, 4, 10, 40, 44 }, 2);
+
+
+
+            var BFSGraph = new BFSGraph();
+            BFSGraph.BFS(2);
         }
     }
 }

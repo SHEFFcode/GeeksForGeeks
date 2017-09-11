@@ -38,6 +38,12 @@
     <Compile Include="SelectionSort.cs" />
     <Compile Include="InsertionSort.cs" />
     <Compile Include="BinarySearch.cs" />
+    <Compile Include="Quicksort.cs" />
+    <Compile Include="BFSGraph.cs" />
+    <Compile Include="DataStructures\Graph.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DataStructures\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
