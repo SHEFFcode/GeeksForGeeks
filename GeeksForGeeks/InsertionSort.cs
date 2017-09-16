@@ -3,10 +3,13 @@ namespace GeeksForGeeks
 {
     public class InsertionSort
     {
-        //Insertion sort works in a similar way to how we sort playing cards in our hands
-        //Run time complexity is O(n^2).
-        //Max time when items are sorted in reverse order.  Minimum time when the items are fully sorted
-        //Often used when the number of items is small, and when they are already almost fully sorted
+        //Insertion sort works in a similar way to how we sort playing cards in our hands.
+
+        //Time Complexity: O(n^2).
+        //Auxilary Space:  O(1).
+
+        //Max time when items are sorted in reverse order.  Minimum time when the items are fully sorted.
+        //Often used when the number of items is small, and when they are already almost fully sorted.
 
 
         //Example:
@@ -19,6 +22,10 @@ namespace GeeksForGeeks
         //Pass 4: [2, 4, 5, 7, 8, 6, 3]
         //Pass 5: [2, 4, 5, 6, 7, 8, 3]
         //Pass 6: [2, 3, 4, 5, 6, 7, 8]
+
+
+        //Links:
+
 
         public void Run(int[] inputArr)
         {
