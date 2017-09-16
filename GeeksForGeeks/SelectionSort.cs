@@ -4,7 +4,7 @@ namespace GeeksForGeeks
     public class SelectionSort
     {
 		//The sort algorithm has a sorted and unsorted sections. Simple and most intuitive.
-		//The algorithm moves through the unsorted sections and moves from the unsorted portion to the sorted portion, until the list is sorted.
+		//The algorithm moves through the unsorted sections and moves items from the unsorted portion to the sorted portion, until the list is sorted.
 
 
 		//Time Complexity: O(n^2) because of two nested loops.
@@ -31,7 +31,7 @@ namespace GeeksForGeeks
 
 		//Links:
 		//https://www.youtube.com/watch?v=f8hXR_Hvybo - CS50 explanation
-		//https://www.youtube.com/watch?v=GUDLRan2DWM - my code school eplanation
+		//https://www.youtube.com/watch?v=GUDLRan2DWM - my code school explanation
 		//https://www.youtube.com/watch?v=xWBP4lzkoyM - selection sort G4G
 		//http://www.geeksforgeeks.org/selection-sort/ - G4G Explanation
 
@@ -39,13 +39,13 @@ namespace GeeksForGeeks
         {
             var length = inputArr.Length;
 
-			//The unexplored region starts at the length of the array
+			//The unsorted region starts at the length of the array, moves on by 1
 			for (int i = 0; i < length; i++) //This can run till length -1 as another way to optimize
             {
-                //We move explored region forward by 1 every iteration by moving along the i
+                //Let's keep track of the lowest item's index by first setting it to i as a initial value.
                 var lowestItemIndex = i;
 
-				//Explored region moves ahead by 1 item along with the i.
+				//The loop that finds the lowest element in the unsorted region of the array.
 				for (int j = i + 1; j < length; j++)
                 {
 					if (inputArr[j] < inputArr[lowestItemIndex])
@@ -55,14 +55,13 @@ namespace GeeksForGeeks
                 }
 
                 //This is an optimization to prevent swapping if lowest index is equal to i.
-                //aka the second for loops if statement is evaluated to false.
+                //If i is equal to lowest item idex, no swap is necessary.
                 if (lowestItemIndex != i)
                 {
 					var temp = inputArr[lowestItemIndex];
 					inputArr[lowestItemIndex] = inputArr[i];
 					inputArr[i] = temp;
                 }
-
 
             }
 
