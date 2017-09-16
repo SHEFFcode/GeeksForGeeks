@@ -41,6 +41,7 @@
     <Compile Include="Quicksort.cs" />
     <Compile Include="BFSGraph.cs" />
     <Compile Include="DataStructures\Graph.cs" />
+    <Compile Include="GraphDFS.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataStructures\" />

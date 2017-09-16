@@ -4,20 +4,28 @@ namespace GeeksForGeeks
     public class SelectionSort
     {
 		//The sort algorithm has a sorted and unsorted sections.
-		//The algorithm moves through the unsorted sections and moves the minimum element to the front
-
+		//The algorithm moves through the unsorted sections and moves from the unsorted portion to the sorted portion, until the list is sorted.
 
         //Example:
-		//Input: [64, 25, 12, 22, 11]
+        //Input: [23, 42, 4, 16, 8, 15]
 
-		//Pass 1: [11, 25, 12, 22, 64]
-		//Pass 2: [11, 12, 25, 22, 64]
-		//Pass 3: [11, 12, 22, 25, 64]
-        //Pass 4: [11, 12, 22, 25, 64] => You can see this is redundant, could be optimized
+        //        |------ unsorted -----|
+        //Pass 1: [23,  42, 4, 16, 8, 15] => Find the minimum number in the unsorted array, which is 4, move to sorted portion of list, swapping element at 0 with smallest element.
+        //        |srt||------unrtd-----|
+        //Pass 2: [4, |42, 23, 16, 8, 15] => Find the minimum number in the unsorted portion of the array, which is 8.  
+        //                                    Swap 8 with the first element in unsorted portion and move up sorted section.
+        //        |-srt--| |---unsrtd----|
+        //Pass 3: [4, 8 ,| 23, 16, 42, 15] => 15
+        //        |----srt---| |-unsrtd--|
+        //Pass 4: [4, 8, 15, | 16, 42, 23] => 16
+        //        |----srted----| |unsrtd|
+        //Pass 5: [4, 8, 15, 16 |, 42, 23] => 23
+        //        |-------srted-----||uns|
+        //Pass 6: [4, 8, 15, 16, 23,|  42] => since we are down to just one element in the unsorted section, we can skip this pass since we are already sorted.
 
-        //Time complexity is O(n^2) because of two nested loops.
-        //Auxilary space is O(1), it never makes more than n swaps and is used when
-        //memory write is a costly operation.
+
+        //Time complexity: O(n^2) because of two nested loops.
+        //Auxilary space:  O(1), it never makes more than n swaps and is used whe memory is a concern since done in place.
 
 		public void Run(int[] inputArr)
         {
