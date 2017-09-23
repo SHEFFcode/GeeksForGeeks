@@ -45,6 +45,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataStructures\" />
+    <Folder Include="Theory\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Theory\RuntimeAnalysis.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

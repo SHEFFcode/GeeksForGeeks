@@ -1,16 +1,17 @@
 ﻿<Properties StartupConfiguration="{464CAC26-E134-4F4C-B44D-669B76CAB87B}|Default">
   <MonoDevelop.Ide.ItemProperties.GeeksForGeeks PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="GeeksForGeeks/GraphDFS.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GeeksForGeeks/Theory/RuntimeAnalysis.txt">
     <Files>
-      <File FileName="GeeksForGeeks/Program.cs" Line="25" Column="29" />
+      <File FileName="GeeksForGeeks/Program.cs" Line="11" Column="13" />
       <File FileName="GeeksForGeeks/Swap.cs" Line="6" Column="74" />
-      <File FileName="GeeksForGeeks/SelectionSort.cs" Line="33" Column="41" />
-      <File FileName="GeeksForGeeks/InsertionSort.cs" Line="33" Column="127" />
+      <File FileName="GeeksForGeeks/SelectionSort.cs" Line="40" Column="42" />
+      <File FileName="GeeksForGeeks/InsertionSort.cs" Line="36" Column="5" />
       <File FileName="GeeksForGeeks/BinarySearch.cs" Line="53" Column="10" />
-      <File FileName="GeeksForGeeks/Quicksort.cs" Line="10" Column="9" />
+      <File FileName="GeeksForGeeks/Quicksort.cs" Line="13" Column="2" />
       <File FileName="GeeksForGeeks/DataStructures/Graph.cs" Line="7" Column="6" />
       <File FileName="GeeksForGeeks/BFSGraph.cs" Line="63" Column="1" />
       <File FileName="GeeksForGeeks/GraphDFS.cs" Line="36" Column="13" />
+      <File FileName="GeeksForGeeks/Theory/RuntimeAnalysis.txt" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
