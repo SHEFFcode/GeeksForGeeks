@@ -9,3 +9,9 @@ of various algorithms along with video explanations and links to relevant resour
 * Insertion Sort:
   * [Code Link](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/InsertionSort.cs)
   * [Video Link](https://youtu.be/Nbb4aNBTIBc)
+* Quick Sort:
+  * [Code Link](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Quicksort.cs)
+  * Video Link (Coming Soon)
+* Binary Search:
+  * [Code Link](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/BinarySearch.cs)
+  * Video Link (Coming Soon)
