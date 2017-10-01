@@ -15,3 +15,6 @@ of various algorithms along with video explanations and links to relevant resour
 * Binary Search:
   * [Code Link](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/BinarySearch.cs)
   * Video Link (Coming Soon)
+* Interpolation Search
+  * [Code Link](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Search/InterpolationSearch.cs)
+  * Video Link (coming soon)
