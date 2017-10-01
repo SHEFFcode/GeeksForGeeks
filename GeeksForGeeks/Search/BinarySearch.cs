@@ -7,6 +7,7 @@ namespace GeeksForGeeks
 		//Runtime Complexity: log(n)
 		//Auxilary Space is O(1)
 		//Algorithmic paradigm: divide and conquer
+		//Beware of midpoint integer overflow, you cna do something like this https://stackoverflow.com/questions/27167943/why-leftright-left-2-will-not-overflow
 
 		//Example:
 
@@ -38,9 +39,9 @@ namespace GeeksForGeeks
                 Console.WriteLine($"{x} is not in the list.");
             }
 
-            var mid = (L + R) / 2;
+            var mid = (L + R) / 2; //Midpoint can also be found using (L + ((R-L)/2) so as not to overflow the 32 bit integer see (https://stackoverflow.com/questions/27167943/why-leftright-left-2-will-not-overflow)
 
-            if (inputArr[mid] == x)
+			if (inputArr[mid] == x)
             {
                 Console.WriteLine($"Found element {x} at position {mid + 1}");
             } 

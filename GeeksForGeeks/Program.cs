@@ -19,13 +19,18 @@ namespace GeeksForGeeks
             //binarySearch.RunRecursive(new int[] { 0, 2, 3, 4, 10, 40, 44 }, 2, 0, 6);
             //binarySearch.RunIterative(new int[] { 0, 2, 3, 4, 10, 40, 44 }, 2);
 
-            var quickSort = new Quicksort();
-            var inputArray = new int[] { 7, 2, 1, 6, 8, 5, 3, 4 };
-            quickSort.QuicksortWrapper(inputArray, 0, inputArray.Length - 1);
-            foreach (var item in inputArray)
-            {
-                Console.WriteLine(item);
-            }
+            //var quickSort = new Quicksort();
+            //var inputArray = new int[] { 7, 2, 1, 6, 8, 5, 3, 4 };
+            //quickSort.QuicksortWrapper(inputArray, 0, inputArray.Length - 1);
+            //foreach (var item in inputArray)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            //var interpolationSearch = new Search.InterpolationSearch();
+            //var result = interpolationSearch.Run(new int[] { 1, 2, 4, 6, 7, 10, 11, 14, 15 }, 4);
+            //Console.WriteLine(result);
+
 
 
 

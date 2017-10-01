@@ -35,17 +35,20 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Swap.cs" />
-    <Compile Include="SelectionSort.cs" />
-    <Compile Include="InsertionSort.cs" />
-    <Compile Include="BinarySearch.cs" />
-    <Compile Include="Quicksort.cs" />
     <Compile Include="BFSGraph.cs" />
     <Compile Include="DataStructures\Graph.cs" />
     <Compile Include="GraphDFS.cs" />
+    <Compile Include="Sorting\InsertionSort.cs" />
+    <Compile Include="Sorting\Quicksort.cs" />
+    <Compile Include="Sorting\SelectionSort.cs" />
+    <Compile Include="Search\BinarySearch.cs" />
+    <Compile Include="Search\InterpolationSearch.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataStructures\" />
     <Folder Include="Theory\" />
+    <Folder Include="Sorting\" />
+    <Folder Include="Search\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Theory\RuntimeAnalysis.txt" />
