@@ -41,3 +41,7 @@ Using a different data structure (usually a hashtable). So you are using more sp
 Ex: 2 strings s and b (small string and big string), find all permutations of s within b.
 Burte force: generate every permutation of s, and lookign for every one within b.  Really slow, at least s!b time complexity.
 Have your brain do the work, see how it does it, and then write an algo based on how the brain naturally does it.
+
+
+Links:
+https://www.youtube.com/watch?v=84UYVCluClQ&index=2&list=PLX6IKgS15Ue02WDPRCmYKuZicQHit9kFt - hacker rank guide
