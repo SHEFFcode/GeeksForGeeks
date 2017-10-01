@@ -1,0 +1,43 @@
+﻿Algorithm Strategies
+
+There are three strategies for approaching an algorithm question:
+
+1) BUD
+2) Space / Time Tradeoffs
+3) DIY
+
+/*===============================================================================================================================
+                                                            BUD Strategy
+===============================================================================================================================*/
+Bottlenecks, Unnecessary work, Duplicated work. 
+
+Bottleneck:
+Ex: 2 arrays, find the number of elements in common between 2 arrays. We take each element in A1 and check each element in A2.
+    Runtime is O(A * B). Where is the bottleneck? It's in B. How can we reduce it?  Well the fastest contains op is in a hash set.
+    This optimization gets us to an O(A + B) algorithm
+
+Unnecessary Work;
+    Ex: a^3 + b^3 = c^3 + d^3, find all solutions where a, b, c and d are integers between 1 and 1000.
+    Brute force is to check each time, n^3 algo.
+    We can say hey, if we find a, b, c and d that works, we break, since there can't be any more values of d for that algo.
+    Since there can only be 1 d for an a, b, c and d combination, we can just solve for d, which is cubeRoot(a^3 + b^3 - c^3).
+
+Duplicated Work:
+    Ex: a^3 + b^3 = c^3 + d^3.  We can start to store some of the resultant values of c^3 + d^3 and just reference them.
+
+
+
+/*===============================================================================================================================
+                                                       Space / Time Tradeoffs:
+===============================================================================================================================*/
+
+Using a different data structure (usually a hashtable). So you are using more space, but hopefully in less time.
+
+
+/*===============================================================================================================================
+                                                               DIY
+===============================================================================================================================*/
+
+Ex: 2 strings s and b (small string and big string), find all permutations of s within b.
+Burte force: generate every permutation of s, and lookign for every one within b.  Really slow, at least s!b time complexity.
+Have your brain do the work, see how it does it, and then write an algo based on how the brain naturally does it.

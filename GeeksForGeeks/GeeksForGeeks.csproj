@@ -52,6 +52,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Theory\RuntimeAnalysis.txt" />
+    <None Include="Theory\7 Steps.txt" />
+    <None Include="Theory\Algorithm Strategies.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

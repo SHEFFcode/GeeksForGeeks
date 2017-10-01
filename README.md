@@ -3,6 +3,11 @@ In this repo I intend to create a full featured repository of all of my algorith
 of various algorithms along with video explanations and links to relevant resources.
 
 ## Index:
+
+* General
+  * [Runtime Analysis](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Theory/RuntimeAnalysis.txt)
+  * [7 Steps]()
+
 * Selection Sort:
   * [Code Link](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/SelectionSort.cs)
   * [Video Link](https://youtu.be/qkEWDCjc8DU)
