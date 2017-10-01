@@ -6,7 +6,8 @@ of various algorithms along with video explanations and links to relevant resour
 
 * General
   * [Runtime Analysis](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Theory/RuntimeAnalysis.txt)
-  * [7 Steps]()
+  * [7 Steps to approach Algos](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Theory/7%20Steps.txt)
+  * [Optimization Strats](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Theory/Algorithm%20Strategies.txt)
 
 * Selection Sort:
   * [Code Link](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/SelectionSort.cs)
