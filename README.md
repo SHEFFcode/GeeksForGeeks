@@ -24,3 +24,6 @@ of various algorithms along with video explanations and links to relevant resour
 * Interpolation Search
   * [Code Link](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Search/InterpolationSearch.cs)
   * Video Link (coming soon)
+* Greedy Algorithms
+  * Code Link
+  * Video Link

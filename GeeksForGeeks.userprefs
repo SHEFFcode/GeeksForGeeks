@@ -1,6 +1,6 @@
 ﻿<Properties StartupConfiguration="{464CAC26-E134-4F4C-B44D-669B76CAB87B}|Default">
   <MonoDevelop.Ide.ItemProperties.GeeksForGeeks PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="GeeksForGeeks/Theory/Algorithm Strategies.txt">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GeeksForGeeks/Theory/Greedy Algorithms.txt">
     <Files>
       <File FileName="GeeksForGeeks/Program.cs" Line="25" Column="47" />
       <File FileName="GeeksForGeeks/Swap.cs" Line="6" Column="74" />
@@ -14,7 +14,8 @@
       <File FileName="GeeksForGeeks/Theory/RuntimeAnalysis.txt" Line="14" Column="60" />
       <File FileName="GeeksForGeeks/Search/InterpolationSearch.cs" Line="21" Column="79" />
       <File FileName="GeeksForGeeks/Theory/7 Steps.txt" Line="23" Column="70" />
-      <File FileName="GeeksForGeeks/Theory/Algorithm Strategies.txt" Line="2" Column="1" />
+      <File FileName="GeeksForGeeks/Theory/Algorithm Strategies.txt" Line="47" Column="112" />
+      <File FileName="GeeksForGeeks/Theory/Greedy Algorithms.txt" Line="1" Column="16" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

@@ -1,0 +1,7 @@
+﻿Greedy Algorythms:
+
+Approach: Builds the solution piece by piece, always choosing the next piece tht offers the most obvious and immediate benefit.
+
+Purpose: Used when choosing the most optimal solution @ each step of the problem gives the best overall solution.
+
+Advantages: If a problem can be solved greedily, the greedy solution will be the most efficient solution, more effective then dynamic programming.
