@@ -44,6 +44,7 @@
     <Compile Include="Search\BinarySearch.cs" />
     <Compile Include="Search\InterpolationSearch.cs" />
     <Compile Include="Greedy\ActivitySelection.cs" />
+    <Compile Include="Greedy\DitkasAlgo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataStructures\" />
