@@ -43,12 +43,14 @@
     <Compile Include="Sorting\SelectionSort.cs" />
     <Compile Include="Search\BinarySearch.cs" />
     <Compile Include="Search\InterpolationSearch.cs" />
+    <Compile Include="Greedy\ActivitySelection.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataStructures\" />
     <Folder Include="Theory\" />
     <Folder Include="Sorting\" />
     <Folder Include="Search\" />
+    <Folder Include="Greedy\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Theory\RuntimeAnalysis.txt" />

@@ -1,4 +1,5 @@
 ﻿using System;
+using GeeksForGeeks.Greedy;
 
 namespace GeeksForGeeks
 {
@@ -36,6 +37,10 @@ namespace GeeksForGeeks
 
             //var BFSGraph = new BFSGraph();
             //BFSGraph.BFS(2);
+
+            var activitySelection = new ActivitySelection();
+            activitySelection.Run(new int[] {10, 12, 20}, new int[] {20, 25, 30});
+
         }
     }
 }
