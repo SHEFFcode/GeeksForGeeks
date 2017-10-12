@@ -68,7 +68,10 @@ namespace GeeksForGeeks.Greedy
           //Update dist[v] only if not in sptSet, there is an edge from u to v,
           //and the total weight of path from src to v through u is smaller then 
           //current value of dist[v]
-          if (!sptSet[v] && graph[u][v] != 0 && dist[u] != int.MaxValue && dist[u] + graph[u][v] < dist[v])
+          if (!sptSet[v] 
+                    && graph[u][v] != 0 
+                    && dist[u] != int.MaxValue 
+                    && dist[u] + graph[u][v] < dist[v])
           {
             dist[v] = dist[u] + graph[u][v];
           }

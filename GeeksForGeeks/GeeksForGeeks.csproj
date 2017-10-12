@@ -58,6 +58,7 @@
     <None Include="Theory\7 Steps.txt" />
     <None Include="Theory\Algorithm Strategies.txt" />
     <None Include="Theory\Greedy Algorithms.txt" />
+    <None Include="Theory\DjikstrasAlgoTheory.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
