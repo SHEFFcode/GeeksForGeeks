@@ -1,4 +1,5 @@
 ﻿using System;
+using GeeksForGeeks.DynamicProgramming;
 using GeeksForGeeks.Greedy;
 
 namespace GeeksForGeeks
@@ -41,17 +42,22 @@ namespace GeeksForGeeks
             //var activitySelection = new ActivitySelection();
             //activitySelection.Run(new int[] {10, 12, 20}, new int[] {20, 25, 30});
 
-            var ditka = new DitkasAlgo();
-            ditka.Run(new int[][]{new int[] {0, 4, 0, 0, 0, 0, 0, 8, 0},
-                                  new int[]{4, 0, 8, 0, 0, 0, 0, 11, 0},
-                                  new int[]{0, 8, 0, 7, 0, 4, 0, 0, 2},
-                                  new int[]{0, 0, 7, 0, 9, 14, 0, 0, 0},
-                                  new int[]{0, 0, 0, 9, 0, 10, 0, 0, 0},
-                                  new int[]{0, 0, 4, 14, 10, 0, 2, 0, 0},
-                                  new int[]{0, 0, 0, 0, 0, 2, 0, 1, 6},
-                                  new int[]{8, 11, 0, 0, 0, 0, 1, 0, 7},
-                                  new int[]{0, 0, 2, 0, 0, 0, 6, 7, 0}
-            }, 0);
+            //var ditka = new DitkasAlgo();
+            //ditka.Run(new int[][]{new int[] {0, 4, 0, 0, 0, 0, 0, 8, 0},
+            //                      new int[]{4, 0, 8, 0, 0, 0, 0, 11, 0},
+            //                      new int[]{0, 8, 0, 7, 0, 4, 0, 0, 2},
+            //                      new int[]{0, 0, 7, 0, 9, 14, 0, 0, 0},
+            //                      new int[]{0, 0, 0, 9, 0, 10, 0, 0, 0},
+            //                      new int[]{0, 0, 4, 14, 10, 0, 2, 0, 0},
+            //                      new int[]{0, 0, 0, 0, 0, 2, 0, 1, 6},
+            //                      new int[]{8, 11, 0, 0, 0, 0, 1, 0, 7},
+            //                      new int[]{0, 0, 2, 0, 0, 0, 6, 7, 0}
+            //}, 0);
+
+            var memoization = new Memoization();
+            Console.WriteLine(memoization.RunRecursive(6));
+            Console.WriteLine(memoization.RunMemoization(6));
+            Console.WriteLine(memoization.RunTabulation(6));
         }
     }
 }

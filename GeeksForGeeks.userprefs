@@ -18,8 +18,7 @@
       <File FileName="GeeksForGeeks/Theory/Greedy Algorithms.txt" Line="7" Column="75" />
       <File FileName="GeeksForGeeks/Greedy/ActivitySelection.cs" Line="1" Column="1" />
       <File FileName="GeeksForGeeks/Greedy/DitkasAlgo.cs" Line="20" Column="24" />
-      <File FileName="GeeksForGeeks/Theory/Dynamic Programming.txt" Line="22" Column="101" />
-      <File FileName="GeeksForGeeks/Dynamic Programming/Memoization.cs" Line="43" Column="51" />
+      <File FileName="GeeksForGeeks/Dynamic Programming/Memoization.cs" Line="35" Column="14" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
