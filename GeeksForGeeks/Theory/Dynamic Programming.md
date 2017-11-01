@@ -10,7 +10,7 @@ In order to use dynamic programming, the problem must have the following two pro
 Example: Binary search does not have common subproblems, while fibbonaci does.
 
 ## Optimal Substrcuture:
-Example of not having optimal substrcuture:Something that does not have an optimal substructure is the longest path solution.
+Example of not having optimal substrcuture:Something that does not have an optimal substructure is the longest path solution below. 
 
 ![Longest Path](http://www.geeksforgeeks.org/wp-content/uploads/LongestPath.gif "Longest Path")
 
