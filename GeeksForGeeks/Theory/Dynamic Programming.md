@@ -1,4 +1,4 @@
-﻿#Dyanmic Programming:
+﻿# Dyanmic Programming:
 Dynamic programming is an algorithmic paradigm that solves a given complex problem by breaking it down into sub problems and stores results 
 of subproblems to avoid computing the same results again.
 
