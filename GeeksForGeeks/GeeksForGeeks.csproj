@@ -46,6 +46,7 @@
     <Compile Include="Greedy\ActivitySelection.cs" />
     <Compile Include="Greedy\DitkasAlgo.cs" />
     <Compile Include="Dynamic Programming\Memoization.cs" />
+    <Compile Include="Dynamic Programming\LIS.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataStructures\" />
