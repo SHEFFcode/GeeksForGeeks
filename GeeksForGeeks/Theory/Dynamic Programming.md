@@ -14,6 +14,8 @@ Example of not having optimal substrcuture:Something that does not have an optim
 
 ![Longest Path](http://www.geeksforgeeks.org/wp-content/uploads/LongestPath.gif "Longest Path")
 
+On the graph the longest path from q to t is either q->s->t or q->r->t, however the longest path from q to r is q->s->t->r and from r to t is r->q->s->t, which would produce a cycle if used as solutions to the longest q to t path.
+
 ## IE:
 
                           fib(6)

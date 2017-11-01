@@ -40,3 +40,6 @@ of various algorithms along with video explanations and links to relevant resour
   * [Code Link](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Greedy/DitkasAlgo.cs)
   * Video Link (coming soon)
 
+### Dyanamic Programming
+* Theory:
+  * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Theory/Dynamic%20Programming.md)
