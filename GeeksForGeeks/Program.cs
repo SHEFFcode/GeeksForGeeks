@@ -54,10 +54,14 @@ namespace GeeksForGeeks
             //                      new int[]{0, 0, 2, 0, 0, 0, 6, 7, 0}
             //}, 0);
 
-            var memoization = new Memoization();
-            Console.WriteLine(memoization.RunRecursive(6));
-            Console.WriteLine(memoization.RunMemoization(6));
-            Console.WriteLine(memoization.RunTabulation(6));
+            //var memoization = new Memoization();
+            //Console.WriteLine(memoization.RunRecursive(6));
+            //Console.WriteLine(memoization.RunMemoization(6));
+            //Console.WriteLine(memoization.RunTabulation(6));
+
+
+            var lis = new LIS();
+            Console.WriteLine(lis.runLIS(new int[] { 10, 22, 9, 33, 21, 50, 41, 60 }, 8));
         }
     }
 }
