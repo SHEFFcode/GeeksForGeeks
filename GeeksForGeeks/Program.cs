@@ -60,8 +60,12 @@ namespace GeeksForGeeks
             //Console.WriteLine(memoization.RunTabulation(6));
 
 
-            var lis = new LIS();
-            Console.WriteLine(lis.runLIS(new int[] { 10, 22, 9, 33, 21, 50, 41, 60 }, 8));
+            //var lis = new LIS();
+            //Console.WriteLine(lis.runLIS(new int[] { 10, 22, 9, 33, 21, 50, 41, 60 }, 8));
+
+            var lcs = new LCS();
+            var result = lcs.runLCS(new char[] {'A', 'G', 'G', 'T', 'A', 'B'}, new char[] {'G', 'T', 'X', 'T', 'X', 'A', 'Y', 'B'}, 6, 8);
+            Console.WriteLine(result);
         }
     }
 }
