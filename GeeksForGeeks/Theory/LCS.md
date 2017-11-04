@@ -40,4 +40,4 @@ We then move on filling in the matrix in the following manner:
 
 See the graph:
 
-![LCS Graph](http://www.geeksforgeeks.org/wp-content/uploads/Longest-Common-Subsequence.png, "LCS Graph")
+![LCS Graph] (http://www.geeksforgeeks.org/wp-content/uploads/Longest-Common-Subsequence.png "LCS Graph")
