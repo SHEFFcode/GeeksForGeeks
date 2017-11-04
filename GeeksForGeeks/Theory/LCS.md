@@ -13,7 +13,7 @@ The solution can be seen as the following graph:
                        /                 \
          lcs("AXY", "AYZX")              lcs("AXYT", "AYZ")
          /             \                 /               \     
-lcs("AX", "AYZX") lcs("AXY", "AYZ")   lcs("AXY", "AYZ") lcs("AXYT", "AY")
+ lcs("AX", "AYZX") lcs("AXY", "AYZ")   lcs("AXY", "AYZ") lcs("AXYT", "AY")
 
 We can see that the lcs("AXY", "AYZ") gets computed twice, just in this limited recursion.
 
