@@ -39,7 +39,7 @@ We then move on filling in the matrix in the following manner:
   right will be the LCS of both strings (since it will include LCS up to that last char for both
   strings). We simply return that value.
 
-See the graph:
+## The Graph
 ```
 LCS 0 A G G T A B
 0   0 0 0 0 0 0 0 <- this is to account for an empty string
