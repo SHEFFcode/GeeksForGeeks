@@ -46,3 +46,5 @@ of various algorithms along with video explanations and links to relevant resour
   * [Code](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Dynamic%20Programming/Memoization.cs)
 * Longest Increasing Subsequence:
   * [Code](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Dynamic%20Programming/LIS.cs)
+* Longest Common Subsequence:
+  * [Theory]()
