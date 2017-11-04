@@ -40,5 +40,20 @@ We then move on filling in the matrix in the following manner:
   strings). We simply return that value.
 
 See the graph:
+```
+LCS 0 A G G T A B
+0   0 0 0 0 0 0 0 <- this is to account for an empty string
+G   0 0 1 1 1 1 1 <- once we get one match in string, rest will all have 1 match for overall string
+X   0 0 1 1 1 1 1 <- again no letter match, but the overall string has 1 match, which is 1
+T   0 0 1 1 2 2 2 <- as you can see another match, so we get a 2 all the way after
+X   0 0 1 1 2 2 2 <- same thing, once we have 2 matches we keep 2 matches for strs that include it
+A   0 1 1 1 2 3 3 <- we got another match here, so all matches that include it go up by 1
+Y   0 1 1 1 2 3 3 <- no match, but the ones that already hae a match keep it
+B   0 1 1 1 2 3 4 <- another match, same rules, and now on bottom we have 4 wich is overall LCS
+```
 
-![LCS Graph](http://www.geeksforgeeks.org/wp-content/uploads/Longest-Common-Subsequence.png "LCS Graph")
+As you can see from the graph, once a single match is found the rest of the table right or down
+will have AT LEAST that many matches, as the matrix keeps track of how many common letters there
+are overall between two string up to that point.  Common string incremenets the amount of matches
+up to it, if no match, we just want to keep the max of left and right since that is how many matches
+we have up to that point if chars are different.
