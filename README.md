@@ -47,4 +47,4 @@ of various algorithms along with video explanations and links to relevant resour
 * Longest Increasing Subsequence:
   * [Code](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Dynamic%20Programming/LIS.cs)
 * Longest Common Subsequence:
-  * [Theory]()
+  * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Theory/LCS.md)
