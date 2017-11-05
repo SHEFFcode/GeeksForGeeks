@@ -49,7 +49,6 @@ of various algorithms along with video explanations and links to relevant resour
 * Longest Common Subsequence:
   * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Theory/LCS.md)
   * [Code](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Dynamic%20Programming/LCS.cs)
-
-  ### Longest Pallindromic Subsequence
+* Longest Pallindromic Subsequence
   * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Theory/LPS.md)
   * [Code](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Dynamic%20Programming/LPS.cs)
