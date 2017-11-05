@@ -49,7 +49,7 @@ B  8 |                                 1 |
 we have the same letters going across and down.**
 
 **Catch: Take a look at the second B, or L[0, 1]. It has nothing below to left, and its length is 2
-in this special case we just set it's value to 2.
+in this special case we just set it's value to 2.**
 
 1) First we fill out 1 across the table, as any character individually is considered a pallindrome
 by definition.
