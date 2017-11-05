@@ -26,7 +26,7 @@ a reversed string.
 
 To implement the dynamic programming solution we think of the sequence in terms of array indecies
 for each character and set up two pointers i and j to traverse the sequence and fill out the longest
-pallindrome sequence between pointers maxtrix below for sequence BABCBAB:
+pallindrome sequence between pointers maxtrix below for sequence BBABCBCAB:
 
 ```
        B   B   A   B   C   B   C   A   B  
@@ -44,6 +44,9 @@ B  8 |                                 1 |
       ----------------------------------
    ^ i pointers
 ```
+
+**Note: The bottom half of the matrix is not filled out, as it will be a mirror of the top half, since
+we have the same letters going across and down.**
 
 1) First we fill out 1 across the table, as any character individually is considered a pallindrome
 by definition.
