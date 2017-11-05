@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{464CAC26-E134-4F4C-B44D-669B76CAB87B}|Default">
   <MonoDevelop.Ide.ItemProperties.GeeksForGeeks PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="GeeksForGeeks/Dynamic Programming/LCS.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GeeksForGeeks/Dynamic Programming/LPS.cs">
     <Files>
       <File FileName="GeeksForGeeks/Program.cs" Line="68" Column="37" />
       <File FileName="GeeksForGeeks/Dynamic Programming/LCS.cs" Line="59" Column="13" />
+      <File FileName="GeeksForGeeks/Dynamic Programming/LPS.cs" Line="11" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

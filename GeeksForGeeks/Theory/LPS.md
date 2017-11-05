@@ -48,11 +48,17 @@ B  8 |                                 1 |
 **Note: The bottom half of the matrix is not filled out, as it will be a mirror of the top half, since
 we have the same letters going across and down.**
 
+**Catch: Take a look at the second B, or L[0, 1]. It has nothing below to left, and its length is 2
+in this special case we just set it's value to 2.
+
 1) First we fill out 1 across the table, as any character individually is considered a pallindrome
 by definition.
 2) We set our pointers i and j such that we can move them around and keep a constant distance between
 them, so in this case i will be [i = 0, j = 1], [i = 1, j = 2], [i = 2, j = 3] and so on for 1 char
 distance.  This distance will increase on every loop until we reach length of the string.
+  * This gets a little tricky, as we need to stop i from looping past the end of the string,
+    which we can achieve by stopping i loop at i = len - const dist + 1 (+1 to account for dist being
+    1 based counting and i loop being 0 based counting).
 3) We will then derive the longest possible common subsequence based off previousely computed results
 as follows:
   * If the two chars are the same and if the distance between our pointers is 1 
