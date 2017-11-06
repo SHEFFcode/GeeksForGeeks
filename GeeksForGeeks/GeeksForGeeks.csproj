@@ -49,6 +49,7 @@
     <Compile Include="Dynamic Programming\LIS.cs" />
     <Compile Include="Dynamic Programming\LCS.cs" />
     <Compile Include="Dynamic Programming\LPS.cs" />
+    <Compile Include="Dynamic Programming\WWP.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataStructures\" />

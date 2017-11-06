@@ -68,9 +68,12 @@ namespace GeeksForGeeks
             //Console.WriteLine(result);
 
 
-            var lps = new LPS();
-            var result = lps.RunLPS("BBABCBCAB");
-            Console.WriteLine($"The longest pallindrome subsequence is {result}.");
+            //var lps = new LPS();
+            //var result = lps.RunLPS("BBABCBCAB");
+            //Console.WriteLine($"The longest pallindrome subsequence is {result}.");
+
+            var wwp = new WWP();
+            wwp.RunWWPGreedy("aaa bb cc dddd");
         }
     }
 }
