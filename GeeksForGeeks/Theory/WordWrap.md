@@ -19,7 +19,7 @@ Input: ['aaa', 'bb', 'cc', 'dddd']. Max line length is 6.
 3   d   d   d   d  ' ' ' '
 ```
 
-**Note: this is not the most tidy solution based off the cost function.**
+**Note: this is not the most tidy solution based off the cost function, which is discussed below.**
 
 ### Dynamic Programming Algorithm
 
