@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{464CAC26-E134-4F4C-B44D-669B76CAB87B}|Default">
   <MonoDevelop.Ide.ItemProperties.GeeksForGeeks PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="GeeksForGeeks/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GeeksForGeeks/Greedy/DitkasAlgo.cs">
     <Files>
-      <File FileName="GeeksForGeeks/Dynamic Programming/WWP.cs" Line="42" Column="14" />
-      <File FileName="GeeksForGeeks/Program.cs" Line="75" Column="24" />
+      <File FileName="GeeksForGeeks/Dynamic Programming/WWP.cs" Line="20" Column="77" />
+      <File FileName="GeeksForGeeks/Program.cs" Line="70" Column="13" />
+      <File FileName="GeeksForGeeks/Greedy/DitkasAlgo.cs" Line="44" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
