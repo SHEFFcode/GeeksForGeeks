@@ -21,7 +21,7 @@ Bounds the function from above and below and defines the bounds of a function's 
 ![BigΘ](http://www.geeksforgeeks.org/wp-content/uploads/thetanotation.png)
 
 ## Links
-https://www.youtube.com/watch?v=6Ol2JbwoJp0 - Asymptotic Analysis Video
-https://www.youtube.com/watch?v=iOq5kSKqeR4 - Asymptotic Analysis CS50
-https://www.youtube.com/watch?v=aGjL7YXI31Q - Great explanation by Rav
-https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/big-o-notation - khan academy
+* https://www.youtube.com/watch?v=6Ol2JbwoJp0 - Asymptotic Analysis Video
+* https://www.youtube.com/watch?v=iOq5kSKqeR4 - Asymptotic Analysis CS50
+* https://www.youtube.com/watch?v=aGjL7YXI31Q - Great explanation by Rav
+* https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/big-o-notation - khan academy
