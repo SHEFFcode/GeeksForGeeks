@@ -3,7 +3,8 @@
 ## General
 Runtime analysis is done using something called asymptotic notation or asymptotic analysis.
 Asymptotic just means finding a limit of a function as it approaches, but never quite reaches infinity.
-There are three bounding asymptotes that CS interviews are generally concenred with:
+There are three bounding asymptotes (or lines that the function's runtime approaches but never 
+reaches as it's input size approaches infinity) that CS interviews are generally concenred with:
 
 * Big O (Worst Case Notation)
 * Big Ω (Best Case Notation)
