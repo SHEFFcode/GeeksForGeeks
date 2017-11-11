@@ -3,7 +3,7 @@
 ## General
 The most common runtimes you will run into are:
 * O(1) Constant
-  * ![Constant](https://d30y9cdsu7xlg0.cloudfront.net/png/239044-200.png  =250x)
+  * ![Constant](https://d30y9cdsu7xlg0.cloudfront.net/png/239044-200.png  =250x){:height="250px"}
 * O(n) Linear
   * ![Linear](https://i.stack.imgur.com/iqwyt.gif)
 * O(n^2) Quadratic
