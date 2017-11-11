@@ -9,7 +9,7 @@ The most common runtimes you will run into are:
 * O(n^c) Polynomial - increases by a constant multiple of input size
   * <img src="https://introcs.cs.princeton.edu/java/41analysis/images/standard-plot.png" height="250">
 * O(c^n) Exponential - runtime increases by power of input size (worst runtime possible)
-  * Red is exponential, green is polynomial for comparison.
+  * **Red is exponential, green is polynomial for comparison.**
   * <img src="http://people.oregonstate.edu/~drayt/MTH251/slides/exp3.jpg" height="250">
 * O(logn) Logarithmic - increases by a a log of input size (usually best runtime possible)
   * <img src="https://i.stack.imgur.com/qPNNp.png" height="250">
