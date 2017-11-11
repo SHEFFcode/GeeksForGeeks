@@ -21,6 +21,8 @@ a little, but will win major points with the interviewer.
 2.  Ask for an example or come up with better examples on your own.
     * Ex: A[1, 5, 15, 20] B[2, 5, 13, 30] The example is too small and is a special case. 
         * Special case because you have same number of items in each array.
+        * Special case because matching elements are in the same position.
+        * Special case because there is a matching element.
     * Better: A[1, 5, 15, 20, 30, 37] B[2, 5, 13, 30, 32, 35, 37, 42]
         * This is a much larger example, and you avoid special cases.
 
