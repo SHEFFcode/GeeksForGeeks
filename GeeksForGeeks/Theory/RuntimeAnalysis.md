@@ -1,5 +1,16 @@
 ﻿# Runtime Complexity Analysis
 
+## General
+Runtime analysis is done using something called asymptotic notation or asymptotic analysis.
+Asymptotic just means finding a limit of a function as it approaches, but never quite reaches infinity.
+There are three bounding asymptotes that CS interviews are generally concenred with:
+
+* Big O (Worst Case Notation)
+* Big Ω (Best Case Notation)
+* Big Θ (Tight Bound Notation)
+
+**Note: Big here just means it's a capital letter of a greek alphabet.**
+
 ## O Notation:
 Upper bound of an algorithm, what is the worst case runtime.
 In the case of if else statements, we pick the route that will lead to the worst time complexity.
