@@ -45,6 +45,7 @@ a little, but will win major points with the interviewer.
     * Modularize your code, any conceptual chunks of code, push that off to another function.
         * Some functions you can even ask if they want you to code up, like swap for example.
           Sometimes they will say don't bother if it's not important for algo.
+    * Write error cases, at least with TODOs.
 
 7.  Test your code. 
     * Example test case is usually too big and too familiar to test the code. 

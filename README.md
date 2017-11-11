@@ -56,3 +56,6 @@ of various algorithms along with video explanations and links to relevant resour
 * Word Wrap Problem
   * [Theory]()
   * [Code]()
+
+  ### Cracking Coding Interview Slides
+* [Cracking Coding Interview Slides](https://www.slideshare.net/gayle2/cracking-the-coding-interview-40140660)
