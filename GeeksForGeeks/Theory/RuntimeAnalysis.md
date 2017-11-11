@@ -10,7 +10,7 @@ reaches as it's input size approaches infinity) that CS interviews are generally
 * Big Ω (Best Case Notation) - second most common, but highly unlikely.
 * Big Θ (Tight Bound Notation) - you will not be asked.
 
-**Note: Big here just means it's a capital letter of a greek alphabet.**
+**Note: Big here just means it's a capital letter as opposed to lower case in a greek alphabet.**
 
 ## O Notation:
 Upper bound of an algorithm, what is the worst case runtime.
