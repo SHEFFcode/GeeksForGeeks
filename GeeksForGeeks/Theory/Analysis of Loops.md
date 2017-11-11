@@ -3,15 +3,15 @@
 ## General
 The most common runtimes you will run into are:
 * O(1) Constant
-![Constant](https://d30y9cdsu7xlg0.cloudfront.net/png/239044-200.png)
+  * ![Constant](https://d30y9cdsu7xlg0.cloudfront.net/png/239044-200.png)
 * O(n) Linear
-![Linear](https://i.stack.imgur.com/iqwyt.gif)
+  * ![Linear](https://i.stack.imgur.com/iqwyt.gif)
 * O(n^2) Quadratic
-![Quadratic](https://introcs.cs.princeton.edu/java/41analysis/images/standard-plot.png)
+  * ![Quadratic](https://introcs.cs.princeton.edu/java/41analysis/images/standard-plot.png)
 * O(logn) Logarithmic
-![Logarithmic](https://i.stack.imgur.com/qPNNp.png)
+  * ![Logarithmic](https://i.stack.imgur.com/qPNNp.png)
 * O(log(logn)) - see graph below, it's even more log then log
-![DoubleLog](http://cdn.cs50.net/2012/fall/lectures/3/notes3w/graph.png)
+  * ![DoubleLog](http://cdn.cs50.net/2012/fall/lectures/3/notes3w/graph.png)
 
 ## Further Analysis
 Here is a rundown of how you get to these runtimes:
