@@ -62,3 +62,7 @@ Cons:
 
 ## Search Direction
 
+There are two common approaches to traversing a graph during search:
+
+* Bredth First Search - traverse the graph one rung removed at a time.
+* Depth First Search - traverese as many rungs down until you hit the end of the graph.
