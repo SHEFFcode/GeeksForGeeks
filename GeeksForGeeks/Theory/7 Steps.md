@@ -1,5 +1,17 @@
 ﻿# 7 Steps to solving an algorithm
 
+## General
+
+Algorithm will likely involve a whiteboard problem, which is there both to test your thinking, but
+also your writing.  Writing neately and in a straight line takes a lot of practice, and I recommend
+practicing in front of a white board as much as possible.
+
+Remember writing fast will not impress anyone if they can't read what you wrote, and you yourself
+will be much more likely to get lost. So write slow and in a straight line, which will slow you down
+a little, but will win major points with the interviewer.
+
+## Specific Steps
+
 1.  Listen carefully to the problem, generally every detail is important to solve the problem optimally.
     Ex: You have 2 arrays (sorted and distinct), find the # of elements in common. Sorted is an important detail.
     You want to write down the input, example and runtime / space restrictions right away!
