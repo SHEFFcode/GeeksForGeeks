@@ -42,3 +42,7 @@ Here is a rundown of how you get to these runtimes:
 
 * O(log(logn)) - For loop that increses or decreases by a power
   * loops where i = pow(i, c) or i = i^c
+
+**Note: It is important to distinguish the increase in i to the increase in runtime based on
+input size.  The two are not related, as fo logn, i increases by a pultiple of i, but runtime is 
+increasing only by logn of input size (much much slower).**
