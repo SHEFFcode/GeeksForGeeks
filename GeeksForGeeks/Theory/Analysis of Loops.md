@@ -2,15 +2,17 @@
 
 ## General
 The most common runtimes you will run into are:
-* O(1) Constant
+* O(1) Constant - remains the same regardless of input size
   * <img src="https://d30y9cdsu7xlg0.cloudfront.net/png/239044-200.png" height="250">
-* O(n) Linear
+* O(n) Linear - increases by a constant with input size
   * <img src="https://i.stack.imgur.com/iqwyt.gif" height="250">
-* O(n^2) Quadratic
+* O(n^c) Polynomial - increases by a constant multiple of input size
   * <img src="https://introcs.cs.princeton.edu/java/41analysis/images/standard-plot.png" height="250">
-* O(logn) Logarithmic
+* O(c^n) Exponential - runtime increases by power of input size (worst runtime possible)
+  * <img src="http://people.oregonstate.edu/~drayt/MTH251/slides/exp3.jpg" height="250">
+* O(logn) Logarithmic - increases by a a log of input size (usually best runtime possible)
   * <img src="https://i.stack.imgur.com/qPNNp.png" height="250">
-* O(log(logn)) - see graph below, it's even more log then log
+* O(log(logn)) Double Logarithmic - see graph below, increases by log of log of input size
   * <img src="http://cdn.cs50.net/2012/fall/lectures/3/notes3w/graph.png" height="250">
 
 ## Further Analysis
