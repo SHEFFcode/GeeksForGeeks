@@ -44,9 +44,9 @@ Where is unnecessary work?
     need to do this work, rather then trying to do it more than once.**
 
 How can we reduce it?
-    * We can say hey, if we find a, b, c we solve for d, and if it's a valid number we break, as there can't be
+* We can say hey, if we find a, b, c we solve for d, and if it's a valid number we break, as there can't be
      any more then 1 d solution for this set of a, b and c.
-    * This turns removes the fourth level of nesting, reducing time complexity from n^4 to n^3
+* This turns removes the fourth level of nesting, reducing time complexity from n^4 to n^3
 
 ### Duplicated Work:
 Ex: a^3 + b^3 = c^3 + d^3, same as above.
