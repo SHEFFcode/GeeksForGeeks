@@ -44,5 +44,5 @@ Here is a rundown of how you get to these runtimes:
   * loops where i = pow(i, c) or i = i^c
 
 **Note: It is important to distinguish the increase in i to the increase in runtime based on
-input size.  The two are not related, as fo logn, i increases by a pultiple of i, but runtime is 
-increasing only by logn of input size (much much slower).**
+input size.  The two are not related, as for O(logn), i increases by a pultiple of i every loop, 
+but runtime is increasing only by logn of input size (much much slower).**
