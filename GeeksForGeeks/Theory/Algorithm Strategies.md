@@ -10,9 +10,9 @@ There are three strategies for approaching an algorithm question:
 ## BUD
 
 BUD Principle of optimization involves 3 criteria to be optimized:
-* Bottlenecks
-* Unnecessary Work
-* Duplicated work 
+* **B**ottlenecks
+* **U**nnecessary Work
+* **D**uplicated work 
 
 ### Bottleneck:
 Ex: 2 arrays, find the number of elements in common between 2 arrays. We take each element in A1 and check each element in A2.
