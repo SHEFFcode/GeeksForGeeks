@@ -6,9 +6,9 @@ Asymptotic just means finding a limit of a function as it approaches, but never 
 There are three bounding asymptotes (or lines that the function's runtime approaches but never 
 reaches as it's input size approaches infinity) that CS interviews are generally concenred with:
 
-* Big O (Worst Case Notation)
-* Big Ω (Best Case Notation)
-* Big Θ (Tight Bound Notation)
+* Big O (Worst Case Notation) - most common, you will be asked this on an interview.
+* Big Ω (Best Case Notation) - second most common, but highly unlikely.
+* Big Θ (Tight Bound Notation) - you will not be asked.
 
 **Note: Big here just means it's a capital letter of a greek alphabet.**
 
