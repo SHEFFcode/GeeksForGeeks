@@ -12,6 +12,7 @@ Auxilary Space:  O(1), it never makes more than n swaps and is used whe memory i
 ### Example
 Input: [23, 42, 4, 16, 8, 15]
 
+```
         |------ unsorted -----|
 Pass 1: [23,  42, 4, 16, 8, 15] => Find the minimum number in the unsorted array, which is 4,  move to sorted portion of list, swapping element at 0 with smallest element.
         |srt||------unrtd-----|
@@ -25,6 +26,7 @@ Pass 4: [4, 8, 15, | 16, 42, 23] => 16
 Pass 5: [4, 8, 15, 16 |, 42, 23] => 23
         |-------srted-----||uns|
 Pass 6: [4, 8, 15, 16, 23,|  42] => since we are down to just one element in the unsorted section, we can skip this pass since we are already sorted.
+```
 
 ## Links
 https://www.youtube.com/watch?v=f8hXR_Hvybo - CS50 explanation
