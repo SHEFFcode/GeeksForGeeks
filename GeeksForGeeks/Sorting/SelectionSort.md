@@ -19,17 +19,17 @@ Pass 1: [23,  42, 4, 16, 8, 15] => Find the minimum number in the unsorted array
 Pass 2: [4, |42, 23, 16, 8, 15] => Find the minimum number in the unsorted portion of the array, which is 8.  
                                     Swap 8 with the first element in unsorted portion and move up sorted section.
         |-srt--| |---unsrtd----|
-Pass 3: [4, 8 ,| 23, 16, 42, 15] => 15
+Pass 3: [4, 8 ,| 23, 16, 42, 15] => min = 15
         |----srt---| |-unsrtd--|
-Pass 4: [4, 8, 15, | 16, 42, 23] => 16
+Pass 4: [4, 8, 15, | 16, 42, 23] => min = 16
         |----srted----| |unsrtd|
-Pass 5: [4, 8, 15, 16 |, 42, 23] => 23
+Pass 5: [4, 8, 15, 16 |, 42, 23] => min = 23
         |-------srted-----||uns|
 Pass 6: [4, 8, 15, 16, 23,|  42] => since we are down to just one element in the unsorted section, we can skip this pass since we are already sorted.
 ```
 
 ## Links
-https://www.youtube.com/watch?v=f8hXR_Hvybo - CS50 explanation
-https://www.youtube.com/watch?v=GUDLRan2DWM - my code school explanation
-https://www.youtube.com/watch?v=xWBP4lzkoyM - selection sort G4G
-http://www.geeksforgeeks.org/selection-sort/ - G4G Explanation
+* https://www.youtube.com/watch?v=f8hXR_Hvybo - CS50 explanation
+* https://www.youtube.com/watch?v=GUDLRan2DWM - my code school explanation
+* https://www.youtube.com/watch?v=xWBP4lzkoyM - selection sort G4G
+* http://www.geeksforgeeks.org/selection-sort/ - G4G Explanation
