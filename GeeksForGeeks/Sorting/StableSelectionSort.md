@@ -15,7 +15,7 @@ it the newly "opened" spot like a sliding puzzle.
 
 ```
 Input : 4A 5 3 2 4B 1
-Selection Sort Output : 1 2 3 4B 4A 5
+Selection Sort Output : 1 2 3 4B 4A 5 => you can see 4A and 4B here are 'swapped'
 Stable Selection Sort Output : 1 2 3 4A 4B 5
 ```
 
