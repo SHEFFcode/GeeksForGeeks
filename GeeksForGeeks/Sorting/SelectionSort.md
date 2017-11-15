@@ -12,8 +12,8 @@ In its basic implementation it is not a stable sorting algorithm, but can be mad
 selection sort.
 
 ### Space and Time
-Time Complexity: O(n^2) because of two nested loops.
-Auxilary Space:  O(1), it never makes more than n swaps and is used whe memory is a concern since done in place.
+* Time Complexity: O(n^2) because of two nested loops.
+* Auxilary Space:  O(1), it never makes more than n swaps and is used whe memory is a concern since done in place.
 
 ### Example
 Input: [23, 42, 4, 16, 8, 15]
