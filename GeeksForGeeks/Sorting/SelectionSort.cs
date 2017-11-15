@@ -15,7 +15,7 @@ namespace GeeksForGeeks
 		//Input: [23, 42, 4, 16, 8, 15]
 
 		//        |------ unsorted -----|
-		//Pass 1: [23,  42, 4, 16, 8, 15] => Find the minimum number in the unsorted array, which is 4, move to sorted portion of list, swapping element at 0 with smallest element.
+		//Pass 1: [23,  42, 4, 16, 8, 15] => Find the minimum number in the unsorted array, which is 4,  move to sorted portion of list, swapping element at 0 with smallest element.
 		//        |srt||------unrtd-----|
 		//Pass 2: [4, |42, 23, 16, 8, 15] => Find the minimum number in the unsorted portion of the array, which is 8.  
 		//                                    Swap 8 with the first element in unsorted portion and move up sorted section.
