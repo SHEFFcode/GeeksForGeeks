@@ -1,6 +1,7 @@
 ﻿using System;
 using GeeksForGeeks.DynamicProgramming;
 using GeeksForGeeks.Greedy;
+using GeeksForGeeks.Sorting;
 
 namespace GeeksForGeeks
 {
@@ -11,6 +12,9 @@ namespace GeeksForGeeks
 
             var selectionSort = new SelectionSort();
             selectionSort.Run(new int[] { 23, 42, 4, 16, 8, 15 });
+
+            var stableSelectionSort = new StableSelectionSort();
+            stableSelectionSort.Run(new int[] { 4, 5, 3, 2, 4, 1 });
 
             //var swap = new Swap();
             //swap.Run(5, 10);

@@ -50,6 +50,7 @@
     <Compile Include="Dynamic Programming\LCS.cs" />
     <Compile Include="Dynamic Programming\LPS.cs" />
     <Compile Include="Dynamic Programming\WWP.cs" />
+    <Compile Include="Sorting\StableSelectionSort.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataStructures\" />
