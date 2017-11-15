@@ -7,6 +7,7 @@ and most intuitive. The algorithm moves through the unsorted sections and moves 
 unsorted portion to the sorted portion, until the list is fully sorted. It is an in place sorting
 algorithm.
 
+### Stability
 In its basic implementation it is not a stable sorting algorithm, but can be made so. See stable
 selection sort.
 
