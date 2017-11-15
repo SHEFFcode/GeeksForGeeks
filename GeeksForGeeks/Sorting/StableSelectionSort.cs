@@ -25,8 +25,8 @@ namespace GeeksForGeeks.Sorting
                 var key = inputArr[lowestItemIndex]; // keep track of the min key
                 while (lowestItemIndex > i) // while loop to shift items to the right
                 {
-                    inputArr[lowestItemIndex] = inputArr[lowestItemIndex - 1];
-                    lowestItemIndex--;
+                    inputArr[lowestItemIndex] = inputArr[lowestItemIndex - 1]; // actual shift to right
+                    lowestItemIndex--; // move on till u hit i
                 }
 
                 inputArr[i] = key; //place key in the new "opened up slot"
