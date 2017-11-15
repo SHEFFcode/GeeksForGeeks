@@ -11,6 +11,10 @@ In the case of selection sort, it is not inherently stable by nature, so we need
 To make selection sort stable, instead of swapping, we can move elements forward, and palce the min
 it the newly "opened" spot like a sliding puzzle.
 
+### Space and Time
+* Time Complexity: O(n^2) because of two nested loops.
+* Auxilary Space:  O(1), is used whe memory is a concern since done in place.
+
 ## Example
 
 ```
