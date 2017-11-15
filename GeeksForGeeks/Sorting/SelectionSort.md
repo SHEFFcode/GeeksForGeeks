@@ -19,11 +19,11 @@ Pass 1: [23,  42, 4, 16, 8, 15] => Find the minimum number in the unsorted array
 Pass 2: [4, |42, 23, 16, 8, 15] => Find the minimum number in the unsorted portion of the array, which is 8.  
                                     Swap 8 with the first element in unsorted portion and move up sorted section.
         |-srt--| |---unsrtd----|
-Pass 3: [4, 8 ,| 23, 16, 42, 15] => min = 15
+Pass 3: [4, 8 ,| 23, 16, 42, 15] => min = 15, swap with 23
         |----srt---| |-unsrtd--|
-Pass 4: [4, 8, 15, | 16, 42, 23] => min = 16
+Pass 4: [4, 8, 15, | 16, 42, 23] => min = 16, no need to swap
         |----srted----| |unsrtd|
-Pass 5: [4, 8, 15, 16 |, 42, 23] => min = 23
+Pass 5: [4, 8, 15, 16 |, 42, 23] => min = 23, swap with 42
         |-------srted-----||uns|
 Pass 6: [4, 8, 15, 16, 23,|  42] => since we are down to just one element in the unsorted section, we can skip this pass since we are already sorted.
 ```
