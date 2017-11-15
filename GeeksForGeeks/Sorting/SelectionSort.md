@@ -8,8 +8,8 @@ unsorted portion to the sorted portion, until the list is fully sorted. It is an
 algorithm.
 
 ### Stability
-In its basic implementation it is not a stable sorting algorithm, but can be made so. See stable
-selection sort.
+In its basic implementation it is not a stable sorting algorithm, but can be made so. See
+[Stable Selection Sort](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Sorting/StableSelectionSort.md).
 
 ### Space and Time
 * Time Complexity: O(n^2) because of two nested loops.

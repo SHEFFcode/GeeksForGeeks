@@ -7,7 +7,8 @@ sort as they were before the sort.
 Any comparison based sorting algorithm which is not stable by nature can be converted into a stable
 algorithm by tweaking the comparison operation to respect initial object order.
 
-In the case of selection sort, instead of swapping, we can move elements forward, and palce the min
+In the case of selection sort, it is not inherently stable by nature, so we need to optimize it.
+To make selection sort stable, instead of swapping, we can move elements forward, and palce the min
 it the newly "opened" spot like a sliding puzzle.
 
 ## Example
