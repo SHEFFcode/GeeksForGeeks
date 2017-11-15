@@ -2,8 +2,13 @@
 
 ## General
 
-The sort algorithm has a sorted and unsorted sections. Simple and most intuitive.
-The algorithm moves through the unsorted sections and moves items from the unsorted portion to the sorted portion, until the list is sorted.
+The selection sort algorithm starts with a premise of sorted and unsorted sections. It is simple 
+and most intuitive. The algorithm moves through the unsorted sections and moves items from the
+unsorted portion to the sorted portion, until the list is fully sorted. It is an in place sorting
+algorithm.
+
+In its basic implementation it is not a stable sorting algorithm, but can be made so. See stable
+selection sort.
 
 ### Space and Time
 Time Complexity: O(n^2) because of two nested loops.

@@ -24,7 +24,7 @@ namespace GeeksForGeeks
 
                 //This is an optimization to prevent swapping if lowest index is equal to i.
                 //If i is equal to lowest item idex, no swap is necessary.
-                if (lowestItemIndex != i)
+                if (lowestItemIndex != i && inputArr[lowestItemIndex] != inputArr[i]) //don't swap same values
                 {
                     /* =============== standard swap ================ */
                     // var temp = inputArr[lowestItemIndex];
