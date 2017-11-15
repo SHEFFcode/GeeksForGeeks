@@ -8,6 +8,10 @@ namespace GeeksForGeeks
     {
         public static void Main(string[] args)
         {
+
+            var selectionSort = new SelectionSort();
+            selectionSort.Run(new int[] { 23, 42, 4, 16, 8, 15 });
+
             //var swap = new Swap();
             //swap.Run(5, 10);
 
@@ -72,8 +76,8 @@ namespace GeeksForGeeks
             //var result = lps.RunLPS("BBABCBCAB");
             //Console.WriteLine($"The longest pallindrome subsequence is {result}.");
 
-            var wwp = new WWP();
-            wwp.RunWWPGreedy("aaa bb cc dddd");
+            //var wwp = new WWP();
+            //wwp.RunWWPGreedy("aaa bb cc dddd");
         }
     }
 }
