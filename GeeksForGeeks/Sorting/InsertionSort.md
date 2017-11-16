@@ -14,6 +14,8 @@ We divide our input into a sorted portion and an unsorted portion.
 * Often used when the number of items is small, and when they are already almost fully sorted.
 * It is a little more efficient then selection sort or bubble sort in "practical" scenarios.
 
+## Stability
+
 
 ## Example:
 
