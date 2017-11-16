@@ -38,15 +38,5 @@ namespace GeeksForGeeks
             return i + 1; //Return the position of the wall after the swap.
 
         }
-
-
-		//PS: See this article for space optimization: http://www.geeksforgeeks.org/quicksort-tail-call-optimization-reducing-worst-case-space-log-n/
-
-
-		//Linkes:
-		//https://www.youtube.com/watch?v=COk73cpQbFQ - mycodeschool
-		//https://www.youtube.com/watch?v=aQiWF4E8flQ - CS50
-		//http://www.geeksforgeeks.org/quick-sort/ - G4G written explanation
-		//https://www.youtube.com/watch?v=PgBzjlCcFvc - G4g video explanation
 	}
 }

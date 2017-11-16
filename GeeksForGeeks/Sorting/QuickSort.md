@@ -39,3 +39,10 @@ input: [|7, 2, 1, 6, 8, 5, 3, 4] => first we pick a pivot element position, in t
 [2, |1] => 1 is itself, so we swap with the element to the right of the pivot, which is itself and continue tp the subproblem
 [2] => 2 is a subproblem, but onely has one element, so we end the recursion here. Similar thing happens in the other side of the array at first pivot.
 ```
+
+## Links
+* PS: See this article for space optimization: http://www.geeksforgeeks.org/quicksort-tail-call-optimization-reducing-worst-case-space-log-n/
+* https://www.youtube.com/watch?v=COk73cpQbFQ - mycodeschool
+* https://www.youtube.com/watch?v=aQiWF4E8flQ - CS50
+* http://www.geeksforgeeks.org/quick-sort/ - G4G written explanation
+* https://www.youtube.com/watch?v=PgBzjlCcFvc - G4g video explanation
