@@ -21,8 +21,8 @@ Additional Notes:
 * Quicksort is implemented for sort for most languages
 
 ## Example
-input: [|7, 2, 1, 6, 8, 5, 3, 4] => first we pick a pivot element position, in this case it will be the last element. i is the first element right of wall
-^ pivot
+input: [|7, 2, 1, 6, 8, 5, 3, 4] => first we pick a pivot element position, in this case it will be the last element. i is the first element right of wall   ^ pivot
+
 ```
 [2, |7, 1, 6, 8, 5, 3, 4] => 2 is smaller then 4, so we swap first element to the right of the wall with it, and increase i. i is now 1
 [2, 1, |7, 6, 8, 5, 3, 4] => 1 is smaller then 4, so we swap it and the first element to the irght of the wall, and increase i, i is now 2.
