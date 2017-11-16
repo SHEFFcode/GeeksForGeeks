@@ -1,0 +1,41 @@
+# Quick Sort		
+    
+## General
+Type of algorithm: divide and conquer
+Picks and element as a pivot and partitions the given array around the picked pivot.
+
+The pivot is usually one of the following:
+First element | Last element | Random element | Median
+Sorts the elements in such a way that elements to the left are smaller then pivot, and on the right are larger then pivot
+
+## Runtime Complexity
+* Runtime Complexity: O(n^2), but Θ(nlogn).  We can be pretty sure that it will not hit it's worst time complexity if we randomize.
+* Space Complexity: O(1), algorithm is done in place, and does not require any extra memory. But because it creates recursive calls, it will have O(n) extra space for stack frames
+
+Additional Notes:
+* Doing tail recursion optimization can limit that auxilary space to O(logn).
+* The algorithm is tail recursive.
+
+## Stability 
+* Quicksort is not a stable sort.
+* Quicksort is implemented for sort for most languages
+
+## Example
+input: [|7, 2, 1, 6, 8, 5, 3, 4] => first we pick a pivot element position, in this case it will be the last element. i is the first element right of wall
+^ pivot
+```
+[2, |7, 1, 6, 8, 5, 3, 4] => 2 is smaller then 4, so we swap first element to the right of the wall with it, and increase i. i is now 1
+[2, 1, |7, 6, 8, 5, 3, 4] => 1 is smaller then 4, so we swap it and the first element to the irght of the wall, and increase i, i is now 2.
+[2, 1, |7, 6, 8, 5, 3, 4] => 6 is bigger then 4, so we continue
+[2, 1, |7, 6, 8, 5, 3, 4] => 8 is bigger then 4, so we continue
+[2, 1, |7, 6, 8, 5, 3, 4] => 5 is bigger then 4, so we continue
+[2, 1, |7, 6, 8, 5, 3, 4] => 3 is smaller then 4, so we swap with first element to the right of the wall, which is still 7, and increase i, i is now 3.
+[2, 1, 3, |6, 8, 5, 7, 4] => now we get to 4 itself, so we swap 4 and first element to the right of the wall, and we have 2 sub problems to look at.
+[2, 1, 3][4][6, 8, 5, 7] => we pick the two indecies, 3 and 7
+[|2, 1, 3] => 2 is smaller then 3, so we swap it with itself, and increase i.
+[2, |1, 3] => 1 issmaller then 3, so we swap it with first element, so we swap it with itself, increase i
+[2, 1, |3] => we swap 3 with first el to the right of wall, which is itself, so we move on to its subproblem
+[|2, 1] => 1 is the pivot, 2 is bigger then 1, so we continue
+[2, |1] => 1 is itself, so we swap with the element to the right of the pivot, which is itself and continue tp the subproblem
+[2] => 2 is a subproblem, but onely has one element, so we end the recursion here. Similar thing happens in the other side of the array at first pivot.
+```
