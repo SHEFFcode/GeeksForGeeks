@@ -9,7 +9,7 @@ We divide our input into a sorted portion and an unsorted portion.
 * Time Complexity: O(n^2).
 * Auxilary Space:  O(1).
 
-Space and Time Notes:
+### Space and Time Notes:
 * Max time when items are sorted in reverse order.  Minimum time when the items are fully sorted O(n).
 * Often used when the number of items is small, and when they are already almost fully sorted.
 * It is a little more efficient then selection sort or bubble sort in "practical" scenarios.
