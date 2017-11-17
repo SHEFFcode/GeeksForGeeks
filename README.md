@@ -26,6 +26,8 @@ of various algorithms along with video explanations and links to relevant resour
 * Quick Sort:
   * [Code Link](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Quicksort.cs)
   * Video Link (Coming Soon)
+* Merge Sort:
+  * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Sorting/MergeSort.md)
 
 ### Search
 * Binary Search:
