@@ -10,11 +10,19 @@ namespace GeeksForGeeks
         public static void Main(string[] args)
         {
 
-            var selectionSort = new SelectionSort();
-            selectionSort.Run(new int[] { 23, 42, 4, 16, 8, 15 });
+            var mergeSort = new MergeSort();
+            var arr = new int[] { 38, 27, 43, 3, 9, 82, 10 };
+            mergeSort.Run(arr, 0, arr.Length - 1);
+            foreach (var item in arr)
+            {
+                Console.WriteLine(item);
+            }
 
-            var stableSelectionSort = new StableSelectionSort();
-            stableSelectionSort.Run(new int[] { 4, 5, 3, 2, 4, 1 });
+            //var selectionSort = new SelectionSort();
+            //selectionSort.Run(new int[] { 23, 42, 4, 16, 8, 15 });
+
+            //var stableSelectionSort = new StableSelectionSort();
+            //stableSelectionSort.Run(new int[] { 4, 5, 3, 2, 4, 1 });
 
             //var swap = new Swap();
             //swap.Run(5, 10);
