@@ -51,6 +51,7 @@
     <Compile Include="Dynamic Programming\LPS.cs" />
     <Compile Include="Dynamic Programming\WWP.cs" />
     <Compile Include="Sorting\StableSelectionSort.cs" />
+    <Compile Include="Sorting\MergeSort.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataStructures\" />

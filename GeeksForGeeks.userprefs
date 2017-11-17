@@ -1,14 +1,15 @@
 ﻿<Properties StartupConfiguration="{464CAC26-E134-4F4C-B44D-669B76CAB87B}|Default">
   <MonoDevelop.Ide.ItemProperties.GeeksForGeeks PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="GeeksForGeeks/Sorting/Quicksort.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GeeksForGeeks/Sorting/MergeSort.cs">
     <Files>
       <File FileName="GeeksForGeeks/Dynamic Programming/WWP.cs" Line="20" Column="77" />
-      <File FileName="GeeksForGeeks/Program.cs" Line="16" Column="65" />
+      <File FileName="GeeksForGeeks/Program.cs" Line="38" Column="16" />
       <File FileName="GeeksForGeeks/Greedy/DitkasAlgo.cs" Line="44" Column="13" />
       <File FileName="GeeksForGeeks/Sorting/SelectionSort.cs" Line="6" Column="1" />
       <File FileName="GeeksForGeeks/Sorting/StableSelectionSort.cs" Line="1" Column="1" />
       <File FileName="GeeksForGeeks/Sorting/InsertionSort.cs" Line="20" Column="51" />
-      <File FileName="GeeksForGeeks/Sorting/Quicksort.cs" Line="6" Column="1" />
+      <File FileName="GeeksForGeeks/Sorting/Quicksort.cs" Line="16" Column="27" />
+      <File FileName="GeeksForGeeks/Sorting/MergeSort.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

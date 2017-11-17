@@ -36,7 +36,6 @@ namespace GeeksForGeeks
             A[end] = tempi;
 
             return i + 1; //Return the position of the wall after the swap.
-
         }
 	}
 }
