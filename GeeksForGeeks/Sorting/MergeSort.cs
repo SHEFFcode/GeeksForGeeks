@@ -3,25 +3,26 @@ namespace GeeksForGeeks.Sorting
 {
     public class MergeSort
     {
-        // Merges two subarrays of arr[].
-        // First subarray is arr[l..m]
-        // Second subarray is arr[m+1..r]
+
         private void Merge(int[] arr, int l, int m, int r)
         {
             // Find sizes of two subarrays to be merged
-            int n1 = m - l + 1;
-            int n2 = r - m;
+            int leftHalfSize = m - l + 1;
+            int rightHalfSize = r - m;
             int i, j; //declare iterator loop variables
 
             /* Create temp arrays */
-            int[] L = new int[n1];
-            int[] R = new int[n2];
+            int[] L = new int[leftHalfSize];
+            int[] R = new int[rightHalfSize];
 
-            /*Copy data to temp arrays*/
-            for (i = 0; i < n1; ++i)
-                L[i] = arr[l + i];
-            for (j = 0; j < n2; ++j)
-                R[j] = arr[m + 1 + j];
+            for (i = 0; i < leftHalfSize; ++i) // Fill out the L array
+            {
+                L[i] = arr[i + l]; // same location in arr, offset by left bound
+            }
+            for (j = 0; j < rightHalfSize; ++j) // Fill out the R array
+            {
+                R[j] = arr[j + m + 1]; // same location, offset by mid + 1 bound
+            }
 
 
             /* Merge the temp arrays */
@@ -32,7 +33,7 @@ namespace GeeksForGeeks.Sorting
 
             // Initial index of merged subarry array
             int k = l;
-            while (i < n1 && j < n2)
+            while (i < leftHalfSize && j < rightHalfSize)
             {
                 if (L[i] <= R[j])
                 {
@@ -48,7 +49,7 @@ namespace GeeksForGeeks.Sorting
             }
 
             /* Copy remaining elements of L[] if any */
-            while (i < n1)
+            while (i < leftHalfSize)
             {
                 arr[k] = L[i];
                 i++;
@@ -56,7 +57,7 @@ namespace GeeksForGeeks.Sorting
             }
 
             /* Copy remaining elements of R[] if any */
-            while (j < n2)
+            while (j < rightHalfSize)
             {
                 arr[k] = R[j];
                 j++;
@@ -64,21 +65,16 @@ namespace GeeksForGeeks.Sorting
             }
         }
 
-        // Main function that sorts arr[l..r] using
-        // merge()
         public void Run(int[] arr, int l, int r)
         {
-            if (l < r)
+            if (l < r) // as long as left pointer is smaller then right
             {
-                // Find the middle point
-                int m = (l + r) / 2;
+                int m = l + (r - l) / 2; // Find the middle point no overflow
 
-                // Sort first and second halves
-                Run(arr, l, m);
-                Run(arr, m + 1, r);
+                Run(arr, l, m); // Sort the right half (pre midpoint)
+                Run(arr, m + 1, r); // Sort the left half (post midpoint)
 
-                // Merge the sorted halves
-                Merge(arr, l, m, r);
+                Merge(arr, l, m, r); // Merge the two sorted halves.
             }
         }
     }
