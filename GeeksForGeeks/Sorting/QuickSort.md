@@ -30,9 +30,9 @@ input: [|7, 2, 1, 6, 8, 5, 3, 4] => first we pick a pivot element position, in t
 ```
 [2, |7, 1, 6, 8, 5, 3, 4] => 2 is smaller then 4, so we swap first element to the right of the wall with it, and increase i. i is now 1
 [2, 1, |7, 6, 8, 5, 3, 4] => 1 is smaller then 4, so we swap it and the first element to the irght of the wall, and increase i, i is now 2.
-[2, 1, 7, |6, 8, 5, 3, 4] => 6 is bigger then 4, so we continue
-[2, 1, 7, |6, 8, 5, 3, 4] => 8 is bigger then 4, so we continue
-[2, 1, 7, |6, 8, 5, 3, 4] => 5 is bigger then 4, so we continue
+[2, 1, 7, |6, 8, 5, 3, 4] => 6 is bigger then 4, so we continue, keep wall where it is
+[2, 1, 7, |6, 8, 5, 3, 4] => 8 is bigger then 4, so we continue, keep wall where it is
+[2, 1, 7, |6, 8, 5, 3, 4] => 5 is bigger then 4, so we continue, keep wall where it is
 [2, 1, 7, |6, 8, 5, 3, 4] => 3 is smaller then 4, so we swap with first element to the right of the wall, which is still 7, and increase i, i is now 3.
 [2, 1, 3, |6, 8, 5, 7, 4] => now we get to 4 itself, so we swap 4 and first element to the right of the wall, and we have 2 sub problems to look at.
 [2, 1, 3][4][6, 8, 5, 7] => we pick the two indecies, 3 and 7
@@ -43,6 +43,11 @@ input: [|7, 2, 1, 6, 8, 5, 3, 4] => first we pick a pivot element position, in t
 [2, |1] => 1 is itself, so we swap with the element to the right of the pivot, which is itself and continue tp the subproblem
 [2] => 2 is a subproblem, but onely has one element, so we end the recursion here. Similar thing happens in the other side of the array at first pivot.
 ```
+
+**Note: The key here, is that we continue to manipulate the original array, so even though we have 
+array [2, 1, 3][4][6, 8, 5, 7] listed here, it's really a single array in that order. We can see
+that once the recursion reaches a single item on both branches, we will be sure that each element
+in the original array is in the correct order**
 
 ## Links
 * PS: See this article for space optimization: http://www.geeksforgeeks.org/quicksort-tail-call-optimization-reducing-worst-case-space-log-n/
