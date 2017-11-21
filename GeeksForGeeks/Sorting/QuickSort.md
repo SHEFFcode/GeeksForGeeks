@@ -12,10 +12,10 @@ Often most practical choice for sorting, in fact the sort function given to us b
 a quicksort implementation.
 
 ## Runtime Complexity
-* Runtime Complexity: O(n^2), but Θ(nlogn) (average case).  We can be pretty sure that it will not hit it's worst time complexity if we randomize.
-* Space Complexity: O(1), algorithm is done in place, and does not require any extra memory. But because it creates recursive calls, it will have O(n) extra space for stack frames
-* Using randomized quicksort tends to move it towards nlogn runtime.
-* 
+* Runtime Complexity: O(n^2) at worst, but O(nlogn) on average.  
+* We can be pretty sure that it will not hit it's worst time complexity if we randomize.
+* Space Complexity: O(1), algorithm is done in place, and does not require any extra memory. 
+  * But because it creates recursive calls, it will have O(n) extra space for stack frames.
 
 Additional Notes:
 * Doing tail recursion optimization can limit that auxilary space to O(logn).
@@ -23,7 +23,6 @@ Additional Notes:
 
 ## Stability 
 * Quicksort is not a stable sort.
-* Quicksort is implemented for sort for most languages
 
 ## Example
 input: [|7, 2, 1, 6, 8, 5, 3, 4] => first we pick a pivot element position, in this case it will be the last element. i is the first element right of wall   ^ pivot
