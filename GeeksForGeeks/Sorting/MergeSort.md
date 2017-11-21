@@ -15,6 +15,8 @@ and are themselves sorted, reducing time complexity compared to doing a sort on 
 ## Time and Space
 * Time Complexity: O(n*log(n))
 * Aux Space: O(n)
+  * We have to have an aux array because of the merge process, we cannot merge into the original
+    array without having some sort of aux array to store info temporarily.
 
 ## Stability
 * Mergesort is a stable sorting algorithm
