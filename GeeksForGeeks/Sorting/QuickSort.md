@@ -17,7 +17,7 @@ a quicksort implementation.
 * Space Complexity: O(1), algorithm is done in place, and does not require any extra memory. 
   * But because it creates recursive calls, it will have O(n) extra space for stack frames.
 
-Additional Notes:
+### Additional Notes:
 * Doing tail recursion optimization can limit that auxilary space to O(logn).
 * The algorithm is tail recursive.
 
