@@ -40,4 +40,9 @@
   * Then recurse down the two sections to its left and right doing the same thing
 
 ## Merge Sort
-* 
+* O(n) spae (not in place)
+* nlogn runtime
+* stable
+* split array until u get to a single element based off a midpoint
+  * We do not care about the pivot element or comparison here, just split, which gets logn
+  * Once all are single element, merge them back up two at a time (O(n) space)
