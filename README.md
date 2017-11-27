@@ -28,7 +28,7 @@ of various algorithms along with video explanations and links to relevant resour
   * [Video Link](https://youtu.be/Nbb4aNBTIBc)
 * Quick Sort:
   * [Theory Link](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Sorting/QuickSort.md)
-  * [Code Link](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Sorting/QuickSort.cs)
+  * [Code Link](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Sorting/Quicksort.cs)
   * Video Link (Coming Soon)
 * Merge Sort:
   * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Sorting/MergeSort.md)
