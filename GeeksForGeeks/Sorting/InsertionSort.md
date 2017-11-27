@@ -15,7 +15,7 @@ We divide our input into a sorted portion and an unsorted portion.
 * It is a little more efficient then selection sort or bubble sort in "practical" scenarios.
 
 ## Stability
-
+* Stable sorting algo
 
 ## Example:
 
