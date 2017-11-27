@@ -7,7 +7,7 @@
 * Not Stable
 * Sorted + unsorted sections
   * Find min right of the wall and swap with first left of the wall
-<iframe allowfullscreen src="http://www.algomation.com/embeddedplayer?embedded=true&algorithm=58b449db0e406f04000c7133" width="900" height="556" seamless="seamless" frameborder="0" style="border:1px solid lightgray" scrolling="no"></iframe>
+<iframe allowfullscreen src="http://www.algomation.com/embeddedplayer?embedded=true&amp;algorithm=58b449db0e406f04000c7133" width="900" height="556" seamless="seamless" frameborder="0" style="border:1px solid lightgray" scrolling="no"></iframe>
 
 ## Stable Selection Sort
 * In place
