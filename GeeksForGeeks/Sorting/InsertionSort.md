@@ -17,6 +17,9 @@ We divide our input into a sorted portion and an unsorted portion.
 ## Stability
 * Stable sorting algo
 
+## Visualization
+* [Visualization](http://www.algomation.com/player?algorithm=58b58043905a180400745cf3)
+
 ## Example:
 
 Input: [23, 42, 4, 16, 8, 15] => Since we haven't started sorting yet, the whole list is unsorted.

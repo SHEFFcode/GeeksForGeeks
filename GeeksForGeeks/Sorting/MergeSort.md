@@ -21,6 +21,9 @@ and are themselves sorted, reducing time complexity compared to doing a sort on 
 ## Stability
 * Mergesort is a stable sorting algorithm
 
+## Visualization
+* [Visualization](http://www.algomation.com/player?algorithm=58bb32885b2b830400b05123)
+
 ## Example
 
 ```

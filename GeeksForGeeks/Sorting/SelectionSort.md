@@ -15,6 +15,9 @@ In its basic implementation it is not a stable sorting algorithm, but can be mad
 * Time Complexity: O(n^2) because of two nested loops.
 * Auxilary Space:  O(1), it never makes more than n swaps and is used whe memory is a concern since done in place.
 
+### Visualization
+* [Visualization](http://www.algomation.com/player?algorithm=58b449db0e406f04000c7133)
+
 ### Example
 Input: [23, 42, 4, 16, 8, 15]
 

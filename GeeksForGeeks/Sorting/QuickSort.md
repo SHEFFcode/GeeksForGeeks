@@ -24,6 +24,9 @@ a quicksort implementation.
 ## Stability 
 * Quicksort is not a stable sort.
 
+## Visualization
+* [Visualization](http://www.algomation.com/player?algorithm=58bb2ef75b2b830400b05118)
+
 ## Example
 input: [|7, 2, 1, 6, 8, 5, 3, 4] => first we pick a pivot element position, in this case it will be the last element. i is the first element right of wall   ^ pivot
 
