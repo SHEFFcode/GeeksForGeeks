@@ -23,7 +23,8 @@ of various algorithms along with video explanations and links to relevant resour
   * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Sorting/StableSelectionSort.md)
   * [Code](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Sorting/StableSelectionSort.cs)
 * Insertion Sort:
-  * [Code Link](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Sorting/InsertionSort.md)
+  * [Theory Link](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Sorting/InsertionSort.md)
+  * [Code Link](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Sorting/InsertionSort.cs)
   * [Video Link](https://youtu.be/Nbb4aNBTIBc)
 * Quick Sort:
   * [Theory Link](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Sorting/QuickSort.md)
