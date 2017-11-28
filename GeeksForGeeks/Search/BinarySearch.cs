@@ -3,7 +3,6 @@ namespace GeeksForGeeks
 {
     public class BinarySearch
     {
-
 		/// <summary>
 		/// Binary Search Implemented Recursively.
 		/// </summary>

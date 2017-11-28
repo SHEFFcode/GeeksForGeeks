@@ -16,10 +16,11 @@ if it is smaller, look right.
 ## Example:
 
 ```
-Input:  [0, 2, 3, 4, 10, 40, 44], look for 2
-
-Pass 1: [0, 2, 3, |4|, 10, 40, 44] => Split sorted array in half, if 4 is what we are looking for, we are done, if not split again.
-Pass 2: [0, |2|, 3] => Since we are looking for 2 and 2 is less then 4 we can look to the left only, we found 2.
+Input:  [0, 2, 3, 4, 10, 40, 44] => determine whether 2 is in the array
+         0  1  2   3    4   5   6
+Pass 1: [0, 2, 3, |4|, 10, 40, 44] => mid = 7 / 2 = 3. Look at index 3, which is value 4. 4 > 2, so look left
+         0   1   2
+Pass 2: [0, |2|, 3] => mid = 2 / 2 = 1. Look at index 1 = 2. 2 == 2, so we are done
 ```
 **Important aside - log is the power to which a number must be raised to get some other number.  ex: log(100) = 2, because 10^2 = 100**
 
