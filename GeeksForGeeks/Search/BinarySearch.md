@@ -14,6 +14,9 @@ if it is smaller, look right.
 
 **NOTE: Beware of midpoint integer overflow, you can do something like this https://stackoverflow.com/questions/27167943/why-leftright-left-2-will-not-overflow**
 
+## Visualization
+* [Visualization](http://www.algomation.com/player?algorithm=56d893695abd0c03007cbf40)
+
 ## Example:
 
 ```
