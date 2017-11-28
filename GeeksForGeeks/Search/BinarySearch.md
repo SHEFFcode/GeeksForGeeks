@@ -1,11 +1,14 @@
 # Binary Search
 
 ## General
-Always deals with a sorted set, where are are tasked to find a specific item (does it exist, and what is its position?
+Always deals with a sorted set, where are are tasked to find a specific item (does it exist, and what is its position).
+We do this by constantly dividing the array in half at the midpoint and checking that value against the 
+value we are looking for. If the midpoint is larger then the number we are trying to find, look left,
+if it is smaller, look right.
 
 ## Runtime
 * Runtime Complexity: log(n)
-* Auxilary Space is O(1)
+* Auxilary Space: O(1)
 * Algorithmic paradigm: divide and conquer
 
 **NOTE: Beware of midpoint integer overflow, you can do something like this https://stackoverflow.com/questions/27167943/why-leftright-left-2-will-not-overflow**

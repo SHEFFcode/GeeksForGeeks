@@ -11,6 +11,7 @@ of various algorithms along with video explanations and links to relevant resour
   * [Analysis of Loops](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Theory/Analysis%20of%20Loops.md)
   * [7 Steps to approach Algos](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Theory/7%20Steps.txt)
   * [Optimization Strats](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Theory/Algorithm%20Strategies.md)
+  * [Algorithmic Paradigms]()
 
 ### Sorting
 * General Comparison of sort algos:
