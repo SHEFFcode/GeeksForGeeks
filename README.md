@@ -70,10 +70,31 @@ of various algorithms along with video explanations and links to relevant resour
 * Word Wrap Problem
   * [Theory]()
   * [Code]()
+* Traveling Salesman
+  * [Theory]()
+  * [Code]()
 
 ### Graphs
 * Theory:
   * [Theory]()
+* Matrix
+* Adj List
+
+### Systems Design
+* Patterns
+* Class Structures
+* Caching
+* Scalability
+
+### Mathematics
+* Probability
+* Combinatronics
+* n chook k problems
+
+### Operating Systems
+* Processes, threads and concurrency
+* Locks, mutexes, semaphores and monitors.
+* Deadlock and Livelock
 
 ### Cracking Coding Interview Slides
 * [Cracking Coding Interview Slides](https://www.slideshare.net/gayle2/cracking-the-coding-interview-40140660)
