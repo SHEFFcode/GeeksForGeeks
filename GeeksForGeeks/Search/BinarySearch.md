@@ -10,6 +10,7 @@ if it is smaller, look right.
 * Runtime Complexity: log(n)
 * Auxilary Space: O(1)
 * Algorithmic paradigm: divide and conquer
+* To prevent integer overflow mid = low + (high - low) / 2
 
 **NOTE: Beware of midpoint integer overflow, you can do something like this https://stackoverflow.com/questions/27167943/why-leftright-left-2-will-not-overflow**
 
