@@ -98,5 +98,8 @@ of various algorithms along with video explanations and links to relevant resour
 * Locks, mutexes, semaphores and monitors.
 * Deadlock and Livelock
 
+### Map of Algorithm Types and Paradigms Applicable to each type
+* TODO
+
 ### Cracking Coding Interview Slides
 * [Cracking Coding Interview Slides](https://www.slideshare.net/gayle2/cracking-the-coding-interview-40140660)
