@@ -31,19 +31,21 @@ a quicksort implementation.
 input: [|7, 2, 1, 6, 8, 5, 3, 4] => first we pick a pivot element position, in this case it will be the last element. i is the first element right of wall   ^ pivot
 
 ```
-[2, |7, 1, 6, 8, 5, 3, 4] => 2 is smaller then 4, so we swap first element to the right of the wall with it, and increase i. i is now 1
-[2, 1, |7, 6, 8, 5, 3, 4] => 1 is smaller then 4, so we swap it and the first element to the irght of the wall, and increase i, i is now 2.
-[2, 1, 7, |6, 8, 5, 3, 4] => 6 is bigger then 4, so we continue, keep wall where it is
-[2, 1, 7, |6, 8, 5, 3, 4] => 8 is bigger then 4, so we continue, keep wall where it is
-[2, 1, 7, |6, 8, 5, 3, 4] => 5 is bigger then 4, so we continue, keep wall where it is
-[2, 1, 7, |6, 8, 5, 3, 4] => 3 is smaller then 4, so we swap with first element to the right of the wall, which is still 7, and increase i, i is now 3.
-[2, 1, 3, |6, 8, 5, 7, 4] => now we get to 4 itself, so we swap 4 and first element to the right of the wall, and we have 2 sub problems to look at.
+[|*7*, 2, 1, 6, 8, 5, 3, 4] => 7 is bigger then 4 so we continue, and keep the wall where it is
+[|7, *2*, 1, 6, 8, 5, 3, 4] => 2 is smaller then 4, so we swap first element to the right of the wall with it, and increase the wall
+[2, |7, *1*, 6, 8, 5, 3, 4] => 1 is smaller then 4, so we swap it with first element to the irght of the wall, and increase the wall
+[2, 1, |7, *6*, 8, 5, 3, 4] => 6 is bigger then 4, so we continue, keep wall where it is
+[2, 1, |7, 6, *8*, 5, 3, 4] => 8 is bigger then 4, so we continue, keep wall where it is
+[2, 1, |7, 6, 8, *5*, 3, 4] => 5 is bigger then 4, so we continue, keep wall where it is
+[2, 1, |7, 6, 8, 5, *3*, 4] => 3 is smaller then 4, so we swap with first element to the right of the wall, which is still 7, and increase the wall
+[2, 1, 3, |6, 8, 5, 7, *4*] => now we get to 4 itself, so we swap 4 and first element to the right of the wall, and we have 2 sub problems to look at.
 [2, 1, 3][4][6, 8, 5, 7] => we pick the two indecies, 3 and 7
-[|2, 1, 3] => 2 is smaller then 3, so we swap it with itself, and increase i.
-[2, |1, 3] => 1 issmaller then 3, so we swap it with first element, so we swap it with itself, increase i
-[2, 1, |3] => we swap 3 with first el to the right of wall, which is itself, so we move on to its subproblem
-[|2, 1] => 1 is the pivot, 2 is bigger then 1, so we continue
-[2, |1] => 1 is itself, so we swap with the element to the right of the pivot, which is itself and continue tp the subproblem
+[|*2*, 1, 3] => 2 is smaller then 3, so we swap it with itself, and move the wall
+[2, |*1*, 3] => 1 issmaller then 3, so we swap it with first element to the right of wall, so we swap it with itself, increase wall
+[2, 1, |*3*] => we swap 3 with first el to the right of wall, which is itself, so we move on to its subproblem
+[|*2*, 1] => 1 is the pivot, 2 is bigger then 1, so we continue
+[|2, *1*] => 1 is itself, so we swap with the element to the right of the pivot, which is itself and continue tp the subproblem
+[1] [2] => 1 is now the pivot in the correct position, 2 is the subproblem
 [2] => 2 is a subproblem, but onely has one element, so we end the recursion here. Similar thing happens in the other side of the array at first pivot.
 ```
 
