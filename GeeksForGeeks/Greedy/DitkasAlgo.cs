@@ -3,6 +3,10 @@ namespace GeeksForGeeks.Greedy
 {
   public class DitkasAlgo
   {
+    //Utility function to find the vertex with the minimum distance value from
+    //set of values not yet included in the shortest path tree.
+    static readonly int V = 9;
+
     //Implements ditkas algorithm using adjacency matrix representation of a graph.
     public void Run(int[][] graph, int src)
     {
@@ -51,10 +55,6 @@ namespace GeeksForGeeks.Greedy
       PrintSolution(dist, V);
 
     }
-
-    //Utility function to find the vertex with the minimum distance value from
-    //set of values not yet included in the shortest path tree.
-    static readonly int V = 9;
 
     private int MinDistance(int[] dist, bool[] sptSet)
     {
