@@ -57,6 +57,12 @@ of various algorithms along with video explanations and links to relevant resour
 * Minumum Number of Coins:
   * [Theory]()
   * [Code]()
+* Minimum Number of Platforms:
+  * [Theory]()
+  * [Code]()
+* Fractional Knapsack
+  * [Theory]()
+  * [Code]()
 
 ### Dyanamic Programming
 * Theory:
