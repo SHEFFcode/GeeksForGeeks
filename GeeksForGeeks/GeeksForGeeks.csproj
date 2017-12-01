@@ -53,6 +53,7 @@
     <Compile Include="Sorting\StableSelectionSort.cs" />
     <Compile Include="Sorting\MergeSort.cs" />
     <Compile Include="Greedy\MinNumPlatforms.cs" />
+    <Compile Include="Greedy\MinNumberOfCoins.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataStructures\" />
