@@ -53,6 +53,7 @@ of various algorithms along with video explanations and links to relevant resour
   * [Code Link](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Greedy/ActivitySelection.cs)
   * Video Link (coming soon)
 * Djikstra's Algorithm (I call it ditkas, so sue me):
+  * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Greedy/DitkasAlgo.md)
   * [Code Link](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Greedy/DitkasAlgo.cs)
   * Video Link (coming soon)
 * Minumum Number of Coins:
