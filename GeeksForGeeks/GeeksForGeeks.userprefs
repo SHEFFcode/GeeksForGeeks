@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{464CAC26-E134-4F4C-B44D-669B76CAB87B}|Default">
   <MonoDevelop.Ide.ItemProperties.GeeksForGeeks PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Greedy/MinNumberOfCoins.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Greedy/MinNumberOfCoins.cs" Line="1" Column="1" />
+      <File FileName="Greedy/MinNumberOfCoins.cs" Line="23" Column="41" />
+      <File FileName="Program.cs" Line="21" Column="40" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
