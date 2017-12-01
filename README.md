@@ -59,8 +59,8 @@ of various algorithms along with video explanations and links to relevant resour
   * [Theory]()
   * [Code]()
 * Minimum Number of Platforms:
-  * [Theory]()
-  * [Code]()
+  * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Greedy/MinNumberOfPlatforms.md)
+  * [Code](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Greedy/MinNumPlatforms.cs)
 * Fractional Knapsack
   * [Theory]()
   * [Code]()
