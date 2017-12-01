@@ -10,13 +10,17 @@ namespace GeeksForGeeks
         public static void Main(string[] args)
         {
 
-            var mergeSort = new MergeSort();
-            var arr = new int[] { 38, 27, 43, 3, 9, 82, 10 };
-            mergeSort.Run(arr, 0, arr.Length - 1);
-            foreach (var item in arr)
-            {
-                Console.WriteLine(item);
-            }
+            //var mergeSort = new MergeSort();
+            //var arr = new int[] { 38, 27, 43, 3, 9, 82, 10 };
+            //mergeSort.Run(arr, 0, arr.Length - 1);
+            //foreach (var item in arr)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            var minNumberOfPlatforms = new MinNumPlatforms();
+            var result = minNumberOfPlatforms.Run(new float[] { 9.00f, 9.40f, 9.50f, 11.00f, 15.00f, 18.00f }, new float[] { 9.10f, 12.00f, 11.20f, 11.30f, 19.00f, 20.00f });
+            Console.WriteLine($"Min number of platforms needed is {result}.");
 
             //var selectionSort = new SelectionSort();
             //selectionSort.Run(new int[] { 23, 42, 4, 16, 8, 15 });

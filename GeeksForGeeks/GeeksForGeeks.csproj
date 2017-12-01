@@ -52,6 +52,7 @@
     <Compile Include="Dynamic Programming\WWP.cs" />
     <Compile Include="Sorting\StableSelectionSort.cs" />
     <Compile Include="Sorting\MergeSort.cs" />
+    <Compile Include="Greedy\MinNumPlatforms.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataStructures\" />
