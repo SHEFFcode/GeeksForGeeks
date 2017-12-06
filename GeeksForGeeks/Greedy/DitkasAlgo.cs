@@ -10,7 +10,7 @@ namespace GeeksForGeeks.Greedy
     //Implements ditkas algorithm using adjacency matrix representation of a graph.
     public void Run(int[][] graph, int src)
     {
-      var dist = new int[V]; // the output array, dist[i] will hold shortest path from s to i.
+      var dist = new int[V]; // the output array, dist[i] will hold shortest path from spirce to vertex.
 
       //sptSet[i] will be true if vertex i is included in the shortest path tree
       //or shortest distance from s to i is finalized.
@@ -26,7 +26,7 @@ namespace GeeksForGeeks.Greedy
       //distance from source vertex to itself is always 0
       dist[src] = 0;
 
-      //find shortest path for all vertecies
+      //find shortest path for all vertecies, minus 1 because there can't be any updates for the last index.
       for (int count = 0; count < V - 1; count++)
       {
         //Pick the minimum distance vertex from the set of vertecies not yet processed.

@@ -18,8 +18,8 @@ namespace GeeksForGeeks
             //    Console.WriteLine(item);
             //}
 
-            var minNumberOfCoins = new Greedy.MinNumberOfCoins();
-            minNumberOfCoins.Run(new int[] { 1, 2, 5, 10, 20, 50, 100}, 121);
+            //var minNumberOfCoins = new Greedy.MinNumberOfCoins();
+            //minNumberOfCoins.Run(new int[] { 1, 2, 5, 10, 20, 50, 100}, 121);
 
             //var minNumberOfPlatforms = new MinNumPlatforms();
             //var result = minNumberOfPlatforms.Run(new float[] { 9.00f, 9.40f, 9.50f, 11.00f, 15.00f, 18.00f }, new float[] { 9.10f, 12.00f, 11.20f, 11.30f, 19.00f, 20.00f });
@@ -65,17 +65,17 @@ namespace GeeksForGeeks
             //var activitySelection = new ActivitySelection();
             //activitySelection.Run(new int[] {10, 12, 20}, new int[] {20, 25, 30});
 
-            //var ditka = new DitkasAlgo();
-            //ditka.Run(new int[][]{new int[] {0, 4, 0, 0, 0, 0, 0, 8, 0},
-            //                      new int[]{4, 0, 8, 0, 0, 0, 0, 11, 0},
-            //                      new int[]{0, 8, 0, 7, 0, 4, 0, 0, 2},
-            //                      new int[]{0, 0, 7, 0, 9, 14, 0, 0, 0},
-            //                      new int[]{0, 0, 0, 9, 0, 10, 0, 0, 0},
-            //                      new int[]{0, 0, 4, 14, 10, 0, 2, 0, 0},
-            //                      new int[]{0, 0, 0, 0, 0, 2, 0, 1, 6},
-            //                      new int[]{8, 11, 0, 0, 0, 0, 1, 0, 7},
-            //                      new int[]{0, 0, 2, 0, 0, 0, 6, 7, 0}
-            //}, 0);
+            var ditka = new DitkasAlgo();
+            ditka.Run(new int[][]{new int[]{0, 4, 0, 0, 0, 0, 0, 8, 0},
+                                  new int[]{4, 0, 8, 0, 0, 0, 0, 11, 0},
+                                  new int[]{0, 8, 0, 7, 0, 4, 0, 0, 2},
+                                  new int[]{0, 0, 7, 0, 9, 14, 0, 0, 0},
+                                  new int[]{0, 0, 0, 9, 0, 10, 0, 0, 0},
+                                  new int[]{0, 0, 4, 14, 10, 0, 2, 0, 0},
+                                  new int[]{0, 0, 0, 0, 0, 2, 0, 1, 6},
+                                  new int[]{8, 11, 0, 0, 0, 0, 1, 0, 7},
+                                  new int[]{0, 0, 2, 0, 0, 0, 6, 7, 0}
+            }, 0);
 
             //var memoization = new Memoization();
             //Console.WriteLine(memoization.RunRecursive(6));
