@@ -3,7 +3,8 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
       <File FileName="Greedy/MinNumberOfCoins.cs" Line="23" Column="41" />
-      <File FileName="Program.cs" Line="21" Column="40" />
+      <File FileName="Program.cs" Line="69" Column="74" />
+      <File FileName="Greedy/DitkasAlgo.cs" Line="4" Column="26" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
