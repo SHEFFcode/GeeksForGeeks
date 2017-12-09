@@ -26,8 +26,13 @@ namespace GeeksForGeeks.Greedy
       //distance from source vertex to itself is always 0
       min_dist[src_vertex] = 0;
 
+<<<<<<< HEAD
       //find shortest path for all vertecies
       for (int row = 0; row < vertexCount - 1; row++)
+=======
+      //find shortest path for all vertecies, minus 1 because there can't be any updates for the last index.
+      for (int count = 0; count < V - 1; count++)
+>>>>>>> a8d37f92beca1ea68d2b833937f98a04ded1c713
       {
         //Pick the minimum distance vertex from the set of vertecies not yet processed.
         //u is always equal to src in first iteration
