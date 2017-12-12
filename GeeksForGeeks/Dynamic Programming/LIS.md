@@ -32,6 +32,7 @@ if LIS[j] < LIS[i] keep moving j to the right till u hit i.
 ```
 
 ## Runtime Complexity
+* Runtime Complexity O(n^2)
 
 ## Links
 * https://www.youtube.com/watch?v=Ns4LCeeOFS4 - g4g
