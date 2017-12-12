@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.ItemProperties.GeeksForGeeks PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="GeeksForGeeks/Greedy/DitkasAlgo.cs">
     <Files>
-      <File FileName="GeeksForGeeks/Greedy/DitkasAlgo.cs" Line="13" Column="104" />
+      <File FileName="GeeksForGeeks/Greedy/DitkasAlgo.cs" Line="40" Column="19" />
       <File FileName="GeeksForGeeks/Program.cs" Line="68" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
@@ -10,8 +10,6 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/jeremy.shefer/projects/GeeksForGeeks/GeeksForGeeks/Greedy/DitkasAlgo.cs" relfile="GeeksForGeeks/Greedy/DitkasAlgo.cs" line="105" column="1" />
-      <Breakpoint file="/Users/jeremy.shefer/projects/GeeksForGeeks/GeeksForGeeks/Greedy/DitkasAlgo.cs" relfile="GeeksForGeeks/Greedy/DitkasAlgo.cs" line="52" column="1" />
-      <Breakpoint file="/Users/jeremy.shefer/projects/GeeksForGeeks/GeeksForGeeks/Greedy/DitkasAlgo.cs" relfile="GeeksForGeeks/Greedy/DitkasAlgo.cs" line="34" column="1" />
       <Breakpoint file="/Users/jeremy.shefer/projects/GeeksForGeeks/GeeksForGeeks/Greedy/DitkasAlgo.cs" relfile="GeeksForGeeks/Greedy/DitkasAlgo.cs" line="73" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
