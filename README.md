@@ -63,7 +63,7 @@ of various algorithms along with video explanations and links to relevant resour
   * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Greedy/MinNumberOfPlatforms.md)
   * [Code](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Greedy/MinNumPlatforms.cs)
 * Fractional Knapsack
-  * [Theory]()
+  * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Greedy/FractionalKnapsack.md)
   * [Code]()
 
 ### Dyanamic Programming
