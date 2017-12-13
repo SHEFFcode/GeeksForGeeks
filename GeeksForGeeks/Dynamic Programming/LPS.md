@@ -79,12 +79,12 @@ as follows:
 4) Once we test the distance between pointers being the length of the string we stop and return the 
 value in the top right cell as it will always be the longest pallindrome.
 
-TODO: Write out the longest pallindrome allong the following lines:
+**TODO: Write out the longest pallindrome allong the following lines:**
 5) To write out the sequence with the longest pallindrome find the lowest box with highest number,
 then move diagonally down and to the left. If that box is the highest of bottom or left print it, move
 diagonally down.  If it is just max move left and don't print the letter. Once you hit the middle
 where i and j are the same, just write out the same letters you have to the left so far.
 
-
-
+## Links
+* https://www.youtube.com/watch?v=TLaGwTnd3HY - g4g
 
