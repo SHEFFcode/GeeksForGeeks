@@ -77,7 +77,7 @@ of various algorithms along with video explanations and links to relevant resour
   * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Dynamic%20Programming/LCS.md)
   * [Code](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Dynamic%20Programming/LCS.cs)
 * Longest Pallindromic Subsequence
-  * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Theory/LPS.md)
+  * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Dynamic%20Programming/LPS.md)
   * [Code](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Dynamic%20Programming/LPS.cs)
 * Word Wrap Problem
   * [Theory]()
