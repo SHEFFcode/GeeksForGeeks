@@ -6,34 +6,6 @@ namespace GeeksForGeeks.DynamicProgramming
         public LPS()
         {
         }
-
-
-        //To implement the dynamic programming solution we think of the sequence in terms of array indecies
-        //for each character and set up two pointers i and j to traverse the sequence and fill out the longest
-        //pallindrome sequence between pointers maxtrix below for sequence BBABCBCAB:
-
-        //```
-        //       B   B   A   B   C   B   C   A   B  
-        //       0   1   2   3   4   5   6   7   8 <-j pointers
-        //      __________________________________
-        //B  0 | 1   2   2   3   3   5   5   5   7 |
-        //B  1 |     1   1   3   3   3   3   5   7 |
-        //A  2 |         1   1   1   3   3   5   5 |
-        //B  3 |             1   1   3   3   3   5 |
-        //C  4 |                 1   1   3   3   3 |
-        //B  5 |                     1   1   1   3 |
-        //C  6 |                         1   1   1 |
-        //A  7 |                             1   1 |
-        //B  8 |                                 1 |
-        //      ----------------------------------
-        //   ^ i pointers
-        //```
-        //**Note: The bottom half of the matrix is not filled out, as it will be a mirror of the top half, since
-        //we have the same letters going across and down.**
-
-        //**Catch: Take a look at the second B, or L[0, 1]. It has nothing below to left, and its length is 2
-        //in this special case we just set it's value to 2.
-
         public int RunLPS(string seq)
         {
             int n = seq.Length; //just take down the length of the sequence given.
