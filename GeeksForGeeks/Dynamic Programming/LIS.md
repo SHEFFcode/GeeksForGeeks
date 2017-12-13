@@ -32,7 +32,8 @@ if LIS[j] < LIS[i] keep moving j to the right till u hit i.
 ```
 
 ## Runtime Complexity
-* Runtime Complexity O(n^2)
+* Runtime Complexity O(m * n)
+* Runtie of the recursive solution is O(2^n) which is a really bad runtime
 
 ## Links
 * https://www.youtube.com/watch?v=Ns4LCeeOFS4 - g4g
