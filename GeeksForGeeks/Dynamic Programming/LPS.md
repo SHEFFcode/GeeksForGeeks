@@ -22,6 +22,10 @@ computer twice at this level).  This means we can use dynamic programming.  In f
 a matrix similar to what we did for longest common substring between the current string and
 a reversed string.
 
+## Runtime
+* Dynamic Programming O(n^2) => polynomial
+* Recursive O(2^n) => exponential
+
 ## Implementation
 
 To implement the dynamic programming solution we think of the sequence in terms of array indecies
