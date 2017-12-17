@@ -47,7 +47,7 @@ of various algorithms along with video explanations and links to relevant resour
 
 ### Greedy Algos
 * Greedy Algorithms
-  * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Theory/Greedy%20Algorithms.txt)
+  * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Theory/Greedy%20Algorithms.md)
 * Activity Selection:
   * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Greedy/ActivitySelection.md)
   * [Code Link](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Greedy/ActivitySelection.cs)
