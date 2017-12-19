@@ -3,7 +3,7 @@
 ## General
 * You are given a graph with certain cities and the distances between them. You are asked for a 
   the shortest way to visit each city exactly once and return to the starting city.
-* Graph: ![graph](http://www.geeksforgeeks.org/wp-content/uploads/Euler12.png)
+* Graph: <img src="http://www.geeksforgeeks.org/wp-content/uploads/Euler12.png" height="250" />
 
 ### Naive Solution:
 * Consider city 1 as the starting point. 
