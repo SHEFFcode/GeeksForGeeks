@@ -38,7 +38,16 @@ p2: [1, 2, 3] => i = 2, j = 3 => C(1, 3) + d(2, 3)
 ```
 * We we continue expanding the set
 ```
+p3 : [1, 2, 3, 4] => i = 2, j = 3 => C([1, *4*], 3) + d(2, 3) => here C(1, 3) is known already
+     [1, 2, 3, 4] => i = 2, j = 4 => C([1, *3*], 4) + d(2, 4) => here C(1, 4) is known already
+     [1, 2, 3, 4] => i = 3, j = 2 => C([1, *4*], 2) + d(3, 2) => here C(1, 4) is known already
+     [1, 2, 3, 4] => i = 3, j = 4 => C([1, *2*], 4) + d(3, 4) => here C(1, 2) is known already
+     [1, 2, 3, 4] => i = 4, j = 3 => C([1, *2*], 3) + d(4, 3) => here C(1, 2) is known already
+     [1, 2, 3, 4] => i = 4, j = 2 => C([1, *3*], 2) + d(4, 2) => here C(1, 3) is known already
 ```
+* We then take the min between the distances of likeminded Costs min(C([1, *4*], 3) && C([1, *3*], 4))
+  * cost of 4, 3 and cost of 3, 4
+  * this number is then assigned to the general cost between those numbers
 
 
 ## Links
