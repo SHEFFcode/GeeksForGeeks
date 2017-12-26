@@ -55,6 +55,8 @@
     <Compile Include="Greedy\MinNumPlatforms.cs" />
     <Compile Include="Greedy\MinNumberOfCoins.cs" />
     <Compile Include="Greedy\FractionalKnapsack.cs" />
+    <Compile Include="Dynamic Programming\TravelingSalesman.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataStructures\" />
