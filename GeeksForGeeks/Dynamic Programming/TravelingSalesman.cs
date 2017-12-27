@@ -7,10 +7,10 @@ namespace GeeksForGeeks.DynamicProgramming
 {
     public class TravelingSalesman
     {
-        public class Index
+        public struct Index
         {
-            private readonly int currentVertex; // [*2*, [1, 3]]
-            private readonly HashSet<int> vertexSet;  // [2, **[1, 3]**]
+            public int currentVertex; // [*2*, [1, 3]]
+            public HashSet<int> vertexSet;  // [2, **[1, 3]**]
 
             public Index(int vertex, HashSet<int> vertexSetPassed)
             {
@@ -24,9 +24,6 @@ namespace GeeksForGeeks.DynamicProgramming
             // indecies. Basically helps prevent duplicates.
             public override bool Equals(object obj)
             {
-                if (this == obj) { 
-                    return true; 
-                } // objects point to same spot in memory
 
                 if (obj == null) // one object is null, or of diff types
                 {
@@ -61,40 +58,48 @@ namespace GeeksForGeeks.DynamicProgramming
 
                 //we just general a hashcode here basically, random number 31, * result + some 
                 // sort of hash code that vertexset can general for us automatically.
-                //result = 31 * result + (this.vertexSet.Count != 0 ? this.vertexSet.GetHashCode() : 0);
+                result = 31 * result + (this.vertexSet.Count != 0 ? this.vertexSet.Count * 13 / 5 : 0);
 
                 return result;
             }
         }
 
 
+        /// <summary>
+        /// Main Driver function for sorting the traveling salesman solution.
+        /// </summary>
+        /// <returns>Traveling salesman solution</returns>
+        /// <param name="graph">Graph.</param>
         public int minCost(int[,] graph) 
         {
-            Dictionary<Index, int> minCostDictionary = new Dictionary<Index, int>();
-            Dictionary<Index, int> parentNodeDictionary = new Dictionary<Index, int>();
+            
+            Dictionary<Index, int> minCostDictionary = new Dictionary<Index, int>(); // Dictionary that contains min cost path for each index.
+            Dictionary<Index, int> parentNodeDictionary = new Dictionary<Index, int>(); // Dictionary that contains parent node for each index.
 
-            List<HashSet<int>> allSets = GenerateCombination(graph.GetLength(0) - 1);
+            List<HashSet<int>> allSets = GenerateCombination(graph.GetLength(0) - 1); // This will contain all the hash sets posisble for this graph size.
 
             foreach (var singleSet in allSets)
             {
-                for (int currentVertex = 1; currentVertex < graph.GetLength(0); currentVertex++)
+                for (int currentVertex = 1; currentVertex < graph.GetLength(0); currentVertex++) // we do not care about the 0 vertex at this stage.
                 {
                     if (singleSet.Contains(currentVertex))
                     {
                         continue;
                     }
 
+                    // Set up the index for current vertex and set
                     Index index = new Index(currentVertex, singleSet);
                     int minCostValue = int.MaxValue;
                     int minPreviousIndex = 0;
 
-                    HashSet<int> copySet = new HashSet<int>(singleSet);
+                    HashSet<int> copySet = new HashSet<int>(singleSet); //make a copy of the set to get around any modification errors.
 
-                    foreach (var prevVertex in singleSet)
+                    foreach (var prevVertex in singleSet) // iterate over the vertecies in the set
                     {
+                        //  Cost =   Cost(x, y)                     +              Cost(y, [x, z, k])
                         int cost = graph[prevVertex, currentVertex] + GetCost(copySet, prevVertex, minCostDictionary);
 
-                        if (cost < minCostValue)
+                        if (cost < minCostValue) // if the cost here is less then the min cost value, we want to update the min cost values
                         {
                             minCostValue = cost;
                             minPreviousIndex = prevVertex;
@@ -106,12 +111,15 @@ namespace GeeksForGeeks.DynamicProgramming
                         minCostValue = graph[0, currentVertex];
                     }
 
-                    minCostDictionary.Add(index, minCostValue);
-                    parentNodeDictionary.Add(index, minPreviousIndex);
+                    minCostDictionary.Add(index, minCostValue); // after we have gone through each vertex in the set, we add the values for min cost and min parent
+                    parentNodeDictionary.Add(index, minPreviousIndex); // to the respective dictionaries for retrieval later
                 }
             }
 
 
+            /* =============================================================================================================================    
+             *                                              TODO: Exactly what is going on here?
+             ==============================================================================================================================*/
             HashSet<int> anotherSingleSet = new HashSet<int>();
             for (int i = 1; i < graph.GetLength(0); i++)
             {
@@ -139,6 +147,11 @@ namespace GeeksForGeeks.DynamicProgramming
 
         }
 
+        /// <summary>
+        /// Function to print out the traveling salesman path.
+        /// </summary>
+        /// <param name="parentNodeDictionary">Parent node dictionary.</param>
+        /// <param name="totalVertecies">Total vertecies.</param>
         private void PrintTour(Dictionary<Index, int> parentNodeDictionary, int totalVertecies)
         {
             HashSet<int> singleSet = new HashSet<int>();
@@ -147,19 +160,19 @@ namespace GeeksForGeeks.DynamicProgramming
                 singleSet.Add(i);
             }
 
-            int start = 0;
+            int start = 0; // just a starting value, we know we will start at 0 in my setup, but this can be dynamic too
             Stack<int> stack = new Stack<int>();
 
             while (true)
             {
-                stack.Push(start);
-                singleSet.Remove(start);
+                stack.Push(start); // we push the vertecies on the stack,
+                singleSet.Remove(start); // but remove from the set
 
-                var key = new Index(start, singleSet);
+                var key = new Index(start, singleSet); // create a key to check against the dictionary
 
-                if (parentNodeDictionary.ContainsKey(key))
+                if (parentNodeDictionary.ContainsKey(key)) // check the dictionary
                 {
-                    start = parentNodeDictionary[key];
+                    start = parentNodeDictionary[key]; // update the start based on the value of the key
                 }
                 else
                 {
@@ -167,11 +180,11 @@ namespace GeeksForGeeks.DynamicProgramming
                 }
             }
 
-            StringBuilder output = new StringBuilder();
+            StringBuilder output = new StringBuilder(); // we use stringbuilder for easier modification as opposed to string.
 
             foreach (var item in stack)
             {
-                output.Append(item + "->");
+                output.Append(item + "->"); //TODO: some logic to not append that last arrow.
             }
 
             Console.WriteLine(output);
@@ -179,21 +192,33 @@ namespace GeeksForGeeks.DynamicProgramming
         }
 
 
+        /// <summary>
+        /// Calculates the cost of the twip based off previousely known values
+        /// </summary>
+        /// <returns>The cost.</returns>
+        /// <param name="copySet">Copy set.</param>
+        /// <param name="prevVertex">Previous vertex.</param>
+        /// <param name="minCostDictionary">Minimum cost dictionary.</param>
         private int GetCost(HashSet<int> copySet, int prevVertex, Dictionary<Index, int> minCostDictionary)
         {
-            copySet.Remove(prevVertex);
+            copySet.Remove(prevVertex); // we take out the preceding vertex, as we don't wanna use it for retrieving the cost from the dictionary
 
-            Index index = new Index(prevVertex, copySet);
-            int cost = 0;
-            if (minCostDictionary.ContainsKey(index))
+            Index index = new Index(prevVertex, copySet); // we create the index key to check the dictionary against
+            int cost = 0; // set up initial cost
+            if (minCostDictionary.ContainsKey(index)) // check the dictionary
             {
-                cost = minCostDictionary[index];
+                cost = minCostDictionary[index]; // retrieve the key
             }
 
-            copySet.Add(prevVertex);
-            return cost;
+            copySet.Add(prevVertex); // add back the index we took out earlier just in case.
+            return cost; // return the cost
         }
 
+        /// <summary>
+        /// Initial overloadded function to generate set combinations based on size of graph
+        /// </summary>
+        /// <returns>The combination.</returns>
+        /// <param name="n">Size of graph</param>
         public List<HashSet<int>> GenerateCombination(int n)
         {
             int[] input = new int[n];
@@ -203,11 +228,11 @@ namespace GeeksForGeeks.DynamicProgramming
                 input[i] = i + 1; // we do not want to count vertex 0 in our combinations
             }
 
-            List <HashSet<int>> allSets = new List <HashSet<int>>();
+            List<HashSet<int>> allSets = new List<HashSet<int>>();
 
             int[] result = new int[input.Length];
 
-            GenerateCombination(input, 0, 0, allSets, result);
+            GenerateCombination(input, 0, 0, allSets, result); // start and position start off being 0
 
             allSets.Sort((x, y) => x.Count - y.Count);
 
@@ -215,9 +240,17 @@ namespace GeeksForGeeks.DynamicProgramming
 
         }
 
+        /// <summary>
+        /// Recursive function that seeks to create all possible sets for a given graph size
+        /// </summary>
+        /// <param name="input">Input.</param>
+        /// <param name="start">Start.</param>
+        /// <param name="pos">Position.</param>
+        /// <param name="allSets">All sets.</param>
+        /// <param name="result">Result.</param>
         private void GenerateCombination(int[] input, int start, int pos, List<HashSet<int>> allSets, int[] result)
         {
-            if (pos == input.Length)
+            if (pos == input.Length) // we've reached the end of the list we are trying to make
             {
                 return;
             }
@@ -233,9 +266,24 @@ namespace GeeksForGeeks.DynamicProgramming
             }
         }
 
+        /// <summary>
+        /// Creates the actual hash set for this position
+        /// </summary>
+        /// <returns>The set.</returns>
+        /// <param name="result">Result.</param>
+        /// <param name="pos">Position.</param>
         private HashSet<int> CreateSet(int[] result, int pos)
         {
             // this is for [1, null], [2, null] etc
+            // where it will return a single empty set for all three
+            // so the sets we will get out of this in order are:
+            // 1. []
+            // 2. [1]
+            // 3. [1, 2]
+            // 4. [1, 3]
+            // 5. [2]
+            // 6. [2, 3]
+            // 7. [3]
             if (pos == 0)
             {
                 return new HashSet<int>();
