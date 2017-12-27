@@ -78,37 +78,37 @@ namespace GeeksForGeeks.DynamicProgramming
 
             List<HashSet<int>> allSets = GenerateCombination(graph.GetLength(0) - 1); // This will contain all the hash sets posisble for this graph size.
 
-            foreach (var singleSet in allSets)
+            foreach (var singleSet in allSets) // so this would be for each [], [1], [1,2], [1,3], [2], [2,3], [3]
             {
                 for (int currentVertex = 1; currentVertex < graph.GetLength(0); currentVertex++) // we do not care about the 0 vertex at this stage.
                 {
-                    if (singleSet.Contains(currentVertex))
+                    if (singleSet.Contains(currentVertex)) // in other words say we are on vertex 1 and we get set [1,3]
                     {
-                        continue;
+                        continue; // we continue, cause u can't got from 1 to 1, or it really does not make any sense to calculate that.
                     }
 
-                    // Set up the index for current vertex and set
+                    // Set up the index struct for current vertex and set
                     Index index = new Index(currentVertex, singleSet);
-                    int minCostValue = int.MaxValue;
-                    int minPreviousIndex = 0;
+                    int minCostValue = int.MaxValue; // initial cost will be max
+                    int minPreviousIndex = 0; // initial previous vertex index will be 0
 
                     HashSet<int> copySet = new HashSet<int>(singleSet); //make a copy of the set to get around any modification errors.
 
-                    foreach (var prevVertex in singleSet) // iterate over the vertecies in the set
+                    foreach (var prevVertex in singleSet) // iterate over the vertecies in the set, picking one to be the previous vertex, rest will be the key for the dict
                     {
-                        //  Cost =   Cost(x, y)                     +              Cost(y, [x, z, k])
-                        int cost = graph[prevVertex, currentVertex] + GetCost(copySet, prevVertex, minCostDictionary);
+                        //  Cost =        distance(x, y)            +              Cost(y, [x, z, k])
+                        int cost = graph[prevVertex, currentVertex] + GetCost(copySet, prevVertex, minCostDictionary); // this just comes from the min cost dictionary
 
                         if (cost < minCostValue) // if the cost here is less then the min cost value, we want to update the min cost values
                         {
-                            minCostValue = cost;
-                            minPreviousIndex = prevVertex;
+                            minCostValue = cost;  // we update the cost
+                            minPreviousIndex = prevVertex; // we update the prev vertex
                         }
                     }
 
                     if (singleSet.Count == 0)
                     {
-                        minCostValue = graph[0, currentVertex];
+                        minCostValue = graph[0, currentVertex]; //graph[prevVertex, currentVertex] above, but with prev vertex being 0
                     }
 
                     minCostDictionary.Add(index, minCostValue); // after we have gone through each vertex in the set, we add the values for min cost and min parent
@@ -118,7 +118,7 @@ namespace GeeksForGeeks.DynamicProgramming
 
 
             /* =============================================================================================================================    
-             *                                              TODO: Exactly what is going on here?
+             *                                       This updates the paths with values back to vertex 0
              ==============================================================================================================================*/
             HashSet<int> anotherSingleSet = new HashSet<int>();
             for (int i = 1; i < graph.GetLength(0); i++)
@@ -142,6 +142,8 @@ namespace GeeksForGeeks.DynamicProgramming
 
             parentNodeDictionary.Add(new Index(0, anotherSingleSet), anotherPrevVertex);
             PrintTour(parentNodeDictionary, graph.GetLength(0));
+
+            Console.WriteLine($"Traveling salesman distance is {min}");
 
             return min;
 
@@ -184,10 +186,10 @@ namespace GeeksForGeeks.DynamicProgramming
 
             foreach (var item in stack)
             {
-                output.Append(item + "->"); //TODO: some logic to not append that last arrow.
+                output.Append(item + "->"); 
             }
 
-            Console.WriteLine(output);
+            Console.WriteLine(output.Remove(output.Length - 2, 2)); //logic to not append that last arrow.
 
         }
 
