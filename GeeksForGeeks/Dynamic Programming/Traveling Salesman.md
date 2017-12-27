@@ -52,3 +52,4 @@ p3 : [1, 2, 3, 4] => i = 2, j = 3 => C([1, *4*], 3) + d(2, 3) => here C(1, 3) is
 
 ## Links
 * https://www.youtube.com/watch?time_continue=148&v=hvDx7q6vcWM - g4g
+* https://www.youtube.com/watch?v=-JjA4BLQyqE - amazon guy
