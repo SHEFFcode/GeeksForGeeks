@@ -65,6 +65,9 @@ of various algorithms along with video explanations and links to relevant resour
 * Fractional Knapsack
   * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Greedy/FractionalKnapsack.md)
   * [Code](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Greedy/FractionalKnapsack.cs)
+* Word Wrap Problem
+  * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Greedy/WWP.md)
+  * [Code](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Greedy/WWP.cs)
 
 ### Dyanamic Programming
 * Theory:
@@ -81,9 +84,7 @@ of various algorithms along with video explanations and links to relevant resour
 * Longest Pallindromic Subsequence
   * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Dynamic%20Programming/LPS.md)
   * [Code](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Dynamic%20Programming/LPS.cs)
-* Word Wrap Problem
-  * [Theory]()
-  * [Code]()
+
 * Traveling Salesman
   * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Dynamic%20Programming/Traveling%20Salesman.md)
   * [Code](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Dynamic%20Programming/TravelingSalesman.cs)
