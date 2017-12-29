@@ -1,18 +1,21 @@
 ﻿<Properties StartupConfiguration="{464CAC26-E134-4F4C-B44D-669B76CAB87B}|Default">
   <MonoDevelop.Ide.ItemProperties.GeeksForGeeks PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Dynamic Programming/TravelingSalesman.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Dynamic Programming/LIS.cs">
     <Files>
       <File FileName="Greedy/MinNumberOfCoins.cs" Line="23" Column="41" />
-      <File FileName="Program.cs" Line="14" Column="1" />
-      <File FileName="Dynamic Programming/TravelingSalesman.cs" Line="204" Column="16" />
+      <File FileName="Program.cs" Line="105" Column="41" />
+      <File FileName="Dynamic Programming/TravelingSalesman.cs" Line="170" Column="27" />
+      <File FileName="Dynamic Programming/LCS.cs" Line="15" Column="66" />
+      <File FileName="Dynamic Programming/Memoization.cs" Line="48" Column="51" />
+      <File FileName="Dynamic Programming/LPS.cs" Line="56" Column="14" />
+      <File FileName="Dynamic Programming/WWP.cs" Line="16" Column="62" />
+      <File FileName="Dynamic Programming/LIS.cs" Line="12" Column="65" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/sheffmachine/Projects/GeeksForGeeks/GeeksForGeeks/Greedy/DitkasAlgo.cs" relfile="Greedy/DitkasAlgo.cs" line="51" column="1" />
-      <Breakpoint file="/Users/sheffmachine/Projects/GeeksForGeeks/GeeksForGeeks/Program.cs" relfile="Program.cs" line="14" column="1" />
-      <Breakpoint file="/Users/sheffmachine/Projects/GeeksForGeeks/GeeksForGeeks/Dynamic Programming/TravelingSalesman.cs" relfile="Dynamic Programming/TravelingSalesman.cs" line="299" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

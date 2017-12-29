@@ -10,13 +10,13 @@ namespace GeeksForGeeks
         public static void Main(string[] args)
         {
 
-            var travelingSalesman = new TravelingSalesman();
-            travelingSalesman.minCost(new int[,] {
-                {  0, 1, 15,  6 },
-                {  2, 0,  7,  3 },
-                {  9, 6,  0, 12 },
-                { 10, 4,  8,  0 }
-            });
+            //var travelingSalesman = new TravelingSalesman();
+            //travelingSalesman.minCost(new int[,] {
+            //    {  0, 1, 15,  6 },
+            //    {  2, 0,  7,  3 },
+            //    {  9, 6,  0, 12 },
+            //    { 10, 4,  8,  0 }
+            //});
 
             //var fractionalKnapsack = new FractionalKnapsack();
             //fractionalKnapsack.Run(50, new int[,] { { 60, 10 }, { 100, 20 }, { 120, 30 } }, 3);
@@ -109,8 +109,8 @@ namespace GeeksForGeeks
             //var result = lps.RunLPS("BBABCBCAB");
             //Console.WriteLine($"The longest pallindrome subsequence is {result}.");
 
-            //var wwp = new WWP();
-            //wwp.RunWWPGreedy("aaa bb cc dddd");
+            var wwp = new WWP();
+            wwp.RunWWPGreedy("aaa bb cc dddd");
         }
     }
 }

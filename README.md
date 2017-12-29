@@ -84,7 +84,7 @@ of various algorithms along with video explanations and links to relevant resour
   * [Code]()
 * Traveling Salesman
   * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Dynamic%20Programming/Traveling%20Salesman.md)
-  * [Code]()
+  * [Code](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Dynamic%20Programming/TravelingSalesman.cs)
 
 ### Graphs
 * Theory:

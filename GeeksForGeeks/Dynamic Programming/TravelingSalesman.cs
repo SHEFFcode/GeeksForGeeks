@@ -224,6 +224,7 @@ namespace GeeksForGeeks.DynamicProgramming
         public List<HashSet<int>> GenerateCombination(int n)
         {
             int[] input = new int[n];
+            int[] result = new int[input.Length];
 
             for (int i = 0; i < input.Length; i++)
             {
@@ -231,8 +232,6 @@ namespace GeeksForGeeks.DynamicProgramming
             }
 
             List<HashSet<int>> allSets = new List<HashSet<int>>();
-
-            int[] result = new int[input.Length];
 
             GenerateCombination(input, 0, 0, allSets, result); // start and position start off being 0
 
