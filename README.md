@@ -69,6 +69,8 @@ of various algorithms along with video explanations and links to relevant resour
 ### Dyanamic Programming
 * Theory:
   * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Theory/Dynamic%20Programming.md)
+* Fibonacci:
+  * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Dynamic%20Programming/Fibonacci.md)
   * [Code](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Dynamic%20Programming/Memoization.cs)
 * Longest Increasing Subsequence:
   * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Dynamic%20Programming/LIS.md)
