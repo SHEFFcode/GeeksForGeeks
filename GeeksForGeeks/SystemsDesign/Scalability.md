@@ -41,6 +41,17 @@ Types of Load Balancers:
 * Random - using some sort of Random Number Generator
   * Also good for clusters with similar configs
 
+## Auto Scaling
+The idea behind auto scaling is to increase and decrease the resourced assigned to a specific 
+application based on the application load.  The hope is to use average CPU, Memory, Connections
+within a certain safe range, while varying the number of machines assigned to a specific task based
+off load.
+
+Microservices lend themselves best to auto scaling, as each little part of the greater whole can
+be scaled up and down depending on the load, without any waste on the scale up side for items which
+may not need the additional resources, but are tied in to the same hardware as the process that does
+need additional resources.
+
 ## Links
 * https://docs.mongodb.com/manual/sharding/ - Sharding and Scaling in General - MongoDB
 * https://www.youtube.com/watch?v=zHn2G71hoIk - Load Balancer
