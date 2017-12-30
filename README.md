@@ -112,7 +112,7 @@ of various algorithms along with video explanations and links to relevant resour
 * Caching
   * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/SystemsDesign/Caching.md)
 * Scalability
-  * [Theory]()
+  * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/SystemsDesign/Scalability.md)
 
 ### Mathematics
 * Probability
