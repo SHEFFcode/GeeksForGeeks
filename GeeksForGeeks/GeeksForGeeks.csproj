@@ -50,7 +50,6 @@
     <Compile Include="Dynamic Programming\LIS.cs" />
     <Compile Include="Dynamic Programming\LCS.cs" />
     <Compile Include="Dynamic Programming\LPS.cs" />
-    <Compile Include="Dynamic Programming\WWP.cs" />
     <Compile Include="Sorting\StableSelectionSort.cs" />
     <Compile Include="Sorting\MergeSort.cs" />
     <Compile Include="Greedy\MinNumPlatforms.cs" />
@@ -58,10 +57,11 @@
     <Compile Include="Greedy\FractionalKnapsack.cs" />
     <Compile Include="Dynamic Programming\TravelingSalesman.cs" />
     <Compile Include="GlobalSuppressions.cs" />
-    <Compile Include="DataStructures\LinkedList.cs" />
+    <Compile Include="DataStructures\CustomLinkedList.cs" />
     <Compile Include="DataStructures\BFSGraph.cs" />
     <Compile Include="DataStructures\GraphDFS.cs" />
     <Compile Include="DataStructures\Swap.cs" />
+    <Compile Include="Greedy\WWP.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataStructures\" />

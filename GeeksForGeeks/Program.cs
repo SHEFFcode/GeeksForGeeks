@@ -1,4 +1,5 @@
 ﻿using System;
+using GeeksForGeeks.DataStructures;
 using GeeksForGeeks.DynamicProgramming;
 using GeeksForGeeks.Greedy;
 using GeeksForGeeks.Sorting;
@@ -111,6 +112,12 @@ namespace GeeksForGeeks
 
             //var wwp = new WWP();
             //wwp.RunWWPGreedy("aaa bb cc dddd");
+
+            //var linkedList = new CustomLinkedList();
+            //linkedList.AddNode(1);
+            //linkedList.AddNode(2);
+            //linkedList.AddNode(3);
+            //linkedList.TraverseLinkedList();
         }
     }
 }

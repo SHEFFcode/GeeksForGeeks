@@ -1,14 +1,14 @@
 ﻿using System;
 namespace GeeksForGeeks.DataStructures
 {
-    public class LinkedList
+    public class CustomLinkedList
     {
         Node headNode; // head node of the linked list
         Node tailNode;
 
         class Node
         {
-            public int data; // the value of this node
+            public int? data; // the value of this node
             public Node next; // the pointer to the next node
 
             public Node(int? passedInData)
@@ -19,11 +19,12 @@ namespace GeeksForGeeks.DataStructures
             }
         }
 
-        public LinkedList()
+        public CustomLinkedList()
         {
             if (headNode == null)
             {
                 headNode = new Node(null);
+                tailNode = headNode;
             }
         }
 
@@ -53,7 +54,7 @@ namespace GeeksForGeeks.DataStructures
                     Console.WriteLine(currentNode.data);
                     currentNode = currentNode.next;
                 }
-            } while (currentNode.next != null);
+            } while (currentNode != null);
         }
     }
 }
