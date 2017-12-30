@@ -97,8 +97,8 @@ of various algorithms along with video explanations and links to relevant resour
 * Swap
   * [Code](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/DataStructures/Swap.cs)
 * Linked List
-  * [Theory]()
-  * [Code]()
+  * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/DataStructures/LinkedList.md)
+  * [Code](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/DataStructures/LinkedList.cs)
 * Stack 
   * [Theory]()
   * [Code]()
