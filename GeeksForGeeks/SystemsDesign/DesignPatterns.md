@@ -69,3 +69,7 @@ to spot iteration.
 
 ## Links
 * https://www.youtube.com/watch?v=j40kRwSm4VE - helloInternet! Decorator Pattern
+* https://www.youtube.com/watch?v=KmAyPUv9gOY - Design Twitter
+* https://www.youtube.com/watch?v=J3DY3Te3A_A - Design Lyft
+* https://www.youtube.com/watch?v=fMZMm_0ZhK4 - Design TinyURL
+* https://www.youtube.com/watch?v=UzLMhqg3_Wc - Design Interview

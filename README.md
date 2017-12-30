@@ -110,7 +110,7 @@ of various algorithms along with video explanations and links to relevant resour
 * Patterns
   * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/SystemsDesign/DesignPatterns.md)
 * Caching
-  * [Theory]()
+  * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/SystemsDesign/Caching.md)
 * Scalability
   * [Theory]()
 
