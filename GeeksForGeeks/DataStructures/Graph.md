@@ -16,11 +16,14 @@ There are two common representations of a graph:
 ### Adjacency Matrix
 Adj Matrix is a 2d array of size VxV where V is the number of vertecis. Adj Matrix for an undirected
 graph are always symmetric.
+<img src="https://www.geeksforgeeks.org/wp-content/uploads/adjacency_matrix_representation.png" height="250" />
+
 
 Pros:
 * Representation is easier to implement and follow
 * Removing an edge takes O(1) time
 * Queries can be done in O(1) time
+
 
 Cons:
 * Consumes more space O(V^2) even if the graph is sparse
@@ -28,6 +31,7 @@ Cons:
 
 ### Adjacency List
 Adj List is an array of linked lists. Size of array is equal to the number of vertices. 
+<img src="https://www.geeksforgeeks.org/wp-content/uploads/adjacency_list_representation.png" height="250" />
 
 Pros:
 * Saves Space O(V + E), at worst can lead to O(V^2) space, but is usually lower for sparse graphs
