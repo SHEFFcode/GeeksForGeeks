@@ -30,14 +30,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ValueTuple">
+      <HintPath>packages\System.ValueTuple.4.4.0\lib\net461\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Swap.cs" />
-    <Compile Include="BFSGraph.cs" />
     <Compile Include="DataStructures\Graph.cs" />
-    <Compile Include="GraphDFS.cs" />
     <Compile Include="Sorting\InsertionSort.cs" />
     <Compile Include="Sorting\Quicksort.cs" />
     <Compile Include="Sorting\SelectionSort.cs" />
@@ -57,6 +58,10 @@
     <Compile Include="Greedy\FractionalKnapsack.cs" />
     <Compile Include="Dynamic Programming\TravelingSalesman.cs" />
     <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="DataStructures\LinkedList.cs" />
+    <Compile Include="DataStructures\BFSGraph.cs" />
+    <Compile Include="DataStructures\GraphDFS.cs" />
+    <Compile Include="DataStructures\Swap.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataStructures\" />
@@ -73,6 +78,7 @@
     <None Include="Theory\Greedy Algorithms.txt" />
     <None Include="Theory\DjikstrasAlgoTheory.txt" />
     <None Include="Theory\Dynamic Programming.txt" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
