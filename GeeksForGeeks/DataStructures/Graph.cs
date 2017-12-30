@@ -23,6 +23,24 @@ namespace GeeksForGeeks.DataStructures
         public void AddEdge(int v, int w)
         {
             adj[v].AddLast(w);
+            adj[w].AddLast(v); //since the graph is undirected
+        }
+    }
+
+    class GraphMatrix
+    {
+        public int V; // number of vertices
+        public int[,] graphContainer; // Adjacency Matrix
+
+        public GraphMatrix(int v) {
+            V = v;
+            graphContainer = new int[v, v];
+        }
+
+        public void AddEdge(int v, int w)
+        {
+            graphContainer[v, w] = 1;
+            graphContainer[w, v] = 1; // since graph is undirected
         }
     }
 }

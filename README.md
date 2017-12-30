@@ -90,9 +90,8 @@ of various algorithms along with video explanations and links to relevant resour
 
 ### Data Structures
 * Graph
-  * [Theory]()
-  * [Matrix]()
-  * [Adj List]()
+  * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/DataStructures/Graph.md)
+  * [Code](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/DataStructures/Graph.cs)
 * Linked List
   * [Theory]()
   * [Code]()

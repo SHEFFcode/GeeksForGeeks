@@ -29,6 +29,8 @@ Cons:
 * Consumes more space O(V^2) even if the graph is sparse
 * Adding a vertex is O(V^2) time
 
+**Note:** If the diagonal on a graph is all zeroes, the graph does not contain a self loop.
+
 ### Adjacency List
 Adj List is an array of linked lists. Size of array is equal to the number of vertices. 
 <img src="https://www.geeksforgeeks.org/wp-content/uploads/adjacency_list_representation.png" height="250" />
