@@ -92,8 +92,10 @@ of various algorithms along with video explanations and links to relevant resour
 * Graph
   * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/DataStructures/Graph.md)
   * [Code](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/DataStructures/Graph.cs)
-  * [Graph BFS]()
-  * [Graph DFS]()
+  * [Graph BFS](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/DataStructures/BFSGraph.cs)
+  * [Graph DFS](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/DataStructures/GraphDFS.cs)
+* Swap
+  * [Code](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/DataStructures/Swap.cs)
 * Linked List
   * [Theory]()
   * [Code]()
