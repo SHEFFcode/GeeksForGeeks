@@ -123,11 +123,12 @@ of various algorithms along with video explanations and links to relevant resour
 
 ### Operating Systems
 * Basics
-  * [Theory]()
+  * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/OperatingSystems/Basics.md)
 * Processes, threads and concurrency
-  * [Theory]()
+  * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/OperatingSystems/Threading.md)
 * Locks, mutexes, semaphores and monitors.
 * Deadlock and Livelock
+  * [Theory]()
 
 ### Cracking Coding Interview Slides
 * [Cracking Coding Interview Slides](https://www.slideshare.net/gayle2/cracking-the-coding-interview-40140660)
