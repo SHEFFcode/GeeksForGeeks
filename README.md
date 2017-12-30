@@ -109,6 +109,8 @@ of various algorithms along with video explanations and links to relevant resour
 ### Systems Design
 * Patterns
   * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/SystemsDesign/DesignPatterns.md)
+* Class Structure
+  * [Theory]()
 * Caching
   * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/SystemsDesign/Caching.md)
 * Scalability
