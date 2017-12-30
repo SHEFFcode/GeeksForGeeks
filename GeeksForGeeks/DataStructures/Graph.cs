@@ -25,6 +25,12 @@ namespace GeeksForGeeks.DataStructures
             adj[v].AddLast(w);
             adj[w].AddLast(v); //since the graph is undirected
         }
+
+        public void RemoveEdge(int v, int w)
+        {
+            adj[v].Remove(w);
+            adj[w].Remove(v); // since graph is undirected
+        }
     }
 
     class GraphMatrix
@@ -41,6 +47,12 @@ namespace GeeksForGeeks.DataStructures
         {
             graphContainer[v, w] = 1;
             graphContainer[w, v] = 1; // since graph is undirected
+        }
+
+        public void RemoveEdge(int v, int w)
+        {
+            graphContainer[v, w] = 0;
+            graphContainer[w, v] = 0; // since graph is undirected
         }
     }
 }
