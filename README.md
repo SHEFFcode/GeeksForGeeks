@@ -122,7 +122,10 @@ of various algorithms along with video explanations and links to relevant resour
 * n chook k problems
 
 ### Operating Systems
+* Basics
+  * [Theory]()
 * Processes, threads and concurrency
+  * [Theory]()
 * Locks, mutexes, semaphores and monitors.
 * Deadlock and Livelock
 
