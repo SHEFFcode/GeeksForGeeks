@@ -66,6 +66,21 @@ Something that is used in most data structures. You need some sort of an iterato
 a next() method which will either get you the next item in the strucutre or have some sort of a way 
 to spot iteration.
 
+### State Machine Pattern
+We have verious states that the class can be in, and each one of the states can perform certain
+actions.  This relies on composition where each gumball machine has a list of states, and each state
+is passed a specific gumball machine at instanciation.  Each of gumball machine's actions are 
+mirrored in the state as appropriate for that state.
+
+When a function on the gumball machine gets called it gets passed along to the state, which has its
+own implementation of that method, which gets called by delegation.
+
+When a method gets performed, the state machine can transition to some other state to handle what
+ever the next operation is coming.
+
+This way more states can be added without making changes to the overall structure of the gumball
+machine class.
+
 
 ## Links
 * https://www.youtube.com/watch?v=j40kRwSm4VE - helloInternet! Decorator Pattern
