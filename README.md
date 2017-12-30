@@ -88,17 +88,33 @@ of various algorithms along with video explanations and links to relevant resour
   * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Dynamic%20Programming/Traveling%20Salesman.md)
   * [Code](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Dynamic%20Programming/TravelingSalesman.cs)
 
-### Graphs
-* Theory:
+### Data Structures
+* Graph
   * [Theory]()
-* Matrix
-* Adj List
+  * [Matrix]()
+  * [Adj List]()
+* Linked List
+  * [Theory]()
+  * [Code]()
+* Stack 
+  * [Theory]()
+  * [Code]()
+* Queue
+  * [Theory]()
+  * [Code]()
+* Binary Search Tree
+  * [Theory]()
+  * [Code]()
 
 ### Systems Design
 * Patterns
+  * [Theory]()
 * Class Structures
+  * [Theory]()
 * Caching
+  * [Theory]()
 * Scalability
+  * [Theory]()
 
 ### Mathematics
 * Probability
