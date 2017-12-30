@@ -127,7 +127,7 @@ of various algorithms along with video explanations and links to relevant resour
 * Processes, threads and concurrency
   * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/OperatingSystems/Threading.md)
 * Locks, mutexes, semaphores and monitors.
-  * [Theory]()
+  * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/OperatingSystems/LoMuSeMo.md)
 * Deadlock and Livelock
   * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/OperatingSystems/Deadlock.md)
 
