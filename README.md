@@ -119,7 +119,7 @@ of various algorithms along with video explanations and links to relevant resour
 ### Mathematics
 * Probability
 * Combinatronics
-* n chook k problems
+* n choose k problems
 
 ### Operating Systems
 * Basics
