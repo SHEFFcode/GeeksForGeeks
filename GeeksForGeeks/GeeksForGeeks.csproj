@@ -64,6 +64,7 @@
     <Compile Include="Greedy\WWP.cs" />
     <Compile Include="DataStructures\CustomStack.cs" />
     <Compile Include="DataStructures\CustomQueue.cs" />
+    <Compile Include="DataStructures\CustomHash.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataStructures\" />
