@@ -11,6 +11,16 @@ Binary search tree is a tree based data strucutre which has the following proper
 To search the binary search tree, you must first compare the item we are trying to find with the 
 root. If it is the root, return it, if key is greter then root we go right, if less we go left.
 
+## Runtime Complexity
+O(logn)
+
+## BST vs Hash Table
+While slower than hash table at insert, search and delete, BST has the following advantages over the
+hash table:
+* We get all keys sorted in order just by doing in order traversal of BST.
+* BSTs are easier to implement
+* BST guarantees O(logn) time, but in a hash size resize operation, we can get log(n) runtime.
+
 ## Insertion
 ```
          100                               100
