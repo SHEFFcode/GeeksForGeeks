@@ -62,6 +62,7 @@
     <Compile Include="DataStructures\GraphDFS.cs" />
     <Compile Include="DataStructures\Swap.cs" />
     <Compile Include="Greedy\WWP.cs" />
+    <Compile Include="DataStructures\CustomStack.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataStructures\" />

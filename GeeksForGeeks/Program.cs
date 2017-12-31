@@ -118,6 +118,18 @@ namespace GeeksForGeeks
             //linkedList.AddNode(2);
             //linkedList.AddNode(3);
             //linkedList.TraverseLinkedList();
+
+            //var customStack = new CustomStack<int>();
+            //customStack.Push(10);
+            //customStack.Push(20);
+            //customStack.Push(30);
+            //Console.WriteLine(customStack.Pop());
+
+            //var customStackList = new CustomStackList<int>();
+            //customStackList.Push(10);
+            //customStackList.Push(20);
+            //customStackList.Push(30);
+            //Console.WriteLine(customStackList.Pop());
         }
     }
 }
