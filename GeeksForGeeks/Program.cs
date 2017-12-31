@@ -139,6 +139,10 @@ namespace GeeksForGeeks
             //Console.WriteLine(customQ.Dequeue());
             //Console.WriteLine(customQ.Front());
             //Console.WriteLine(customQ.Rear());
+
+            var customHash = new CustomHash();
+            customHash.Insert("Hello", 3);
+            Console.WriteLine(customHash.Retrieve("Hello"));
         }
     }
 }

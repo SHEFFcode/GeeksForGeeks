@@ -5,9 +5,18 @@ namespace GeeksForGeeks.DataStructures
 {
     public class CustomHash
     {
-        List<List<Tuple<string, int>>> container;
+        List<Tuple<string, int>>[] container;
         int buckets = 8;
         int size;
+
+        public CustomHash()
+        {
+            container = new List<Tuple<string, int>>[buckets];
+            for (var i = 0; i < container.Length; i++)
+            {
+                container[i] = new List<Tuple<string, int>>();
+            }
+        }
 
         public int Hash(string inputToHash)
         {
