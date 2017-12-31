@@ -105,6 +105,9 @@ of various algorithms along with video explanations and links to relevant resour
 * Queue
   * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/DataStructures/Queue.md)
   * [Code](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/DataStructures/CustomQueue.cs)
+* Hash
+  * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/DataStructures/Hash.md)
+  * [Code](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/DataStructures/CustomHash.cs)
 * Binary Search Tree
   * [Theory]()
   * [Code]()
