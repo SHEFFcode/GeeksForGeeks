@@ -63,6 +63,7 @@
     <Compile Include="DataStructures\Swap.cs" />
     <Compile Include="Greedy\WWP.cs" />
     <Compile Include="DataStructures\CustomStack.cs" />
+    <Compile Include="DataStructures\CustomQueue.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataStructures\" />

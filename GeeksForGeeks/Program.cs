@@ -130,6 +130,15 @@ namespace GeeksForGeeks
             //customStackList.Push(20);
             //customStackList.Push(30);
             //Console.WriteLine(customStackList.Pop());
+
+            //var customQ = new CustomQueue(1000);
+            //customQ.Enqueue(10);
+            //customQ.Enqueue(20);
+            //customQ.Enqueue(30);
+            //customQ.Enqueue(40);
+            //Console.WriteLine(customQ.Dequeue());
+            //Console.WriteLine(customQ.Front());
+            //Console.WriteLine(customQ.Rear());
         }
     }
 }
