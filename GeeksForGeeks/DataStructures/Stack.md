@@ -32,5 +32,6 @@ Stack vs Heap
 * Using a linked list
   * Pros:
     * Dynamic, can grow and shrink in size at runtime
+  * Cons:
     * Requires a bit more memory for the pointer.
 
