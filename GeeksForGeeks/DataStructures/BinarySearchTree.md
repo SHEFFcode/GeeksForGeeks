@@ -5,8 +5,6 @@ Binary search tree is a tree based data strucutre which has the following proper
 * Right subtree contains only the nodes that are more then the node's key
 * Left and Right subtree must also be binary search trees.
 
-<img stc="https://www.geeksforgeeks.org/wp-content/uploads/gq/2014/01/200px-Binary_search_tree.svg_.png" height="250">
-
 ## Searching The Tree
 To search the binary search tree, you must first compare the item we are trying to find with the 
 root. If it is the root, return it, if key is greter then root we go right, if less we go left.

@@ -109,8 +109,8 @@ of various algorithms along with video explanations and links to relevant resour
   * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/DataStructures/Hash.md)
   * [Code](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/DataStructures/CustomHash.cs)
 * Binary Search Tree
-  * [Theory]()
-  * [Code]()
+  * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/DataStructures/BinarySearchTree.md)
+  * [Code](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/DataStructures/CustomBinarySearchTree.cs)
 
 ### Systems Design
 * Patterns
