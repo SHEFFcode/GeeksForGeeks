@@ -140,9 +140,17 @@ namespace GeeksForGeeks
             //Console.WriteLine(customQ.Front());
             //Console.WriteLine(customQ.Rear());
 
-            var customHash = new CustomHash();
-            customHash.Insert("Hello", 3);
-            Console.WriteLine(customHash.Retrieve("Hello"));
+            //var customHash = new CustomHash();
+            //customHash.Insert("Hello", 3);
+            //Console.WriteLine(customHash.Retrieve("Hello"));
+
+            var bst = new CustomBinarySearchTree();
+            bst.Insert(5);
+            bst.Insert(3);
+            bst.Insert(4);
+            bst.Insert(10);
+            bst.Insert(12);
+            bst.Delete(12);
         }
     }
 }

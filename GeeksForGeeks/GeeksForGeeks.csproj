@@ -65,6 +65,7 @@
     <Compile Include="DataStructures\CustomStack.cs" />
     <Compile Include="DataStructures\CustomQueue.cs" />
     <Compile Include="DataStructures\CustomHash.cs" />
+    <Compile Include="DataStructures\CustomBinarySearchTree.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataStructures\" />
