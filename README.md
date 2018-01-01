@@ -125,6 +125,7 @@ links to relevant resources.
 
 ### Mathematics
 * Probability
+  * [Theory]()
 * Combinatronics
   * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Math/Combinatronics.md)
 * N Choose K problems
