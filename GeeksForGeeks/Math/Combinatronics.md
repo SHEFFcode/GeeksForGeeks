@@ -23,14 +23,19 @@ P(56/2^8) = .21875
  ```
 What is the probability of getting at least 3 baskets?
 ```
-P(3/5) + P(4/5) + P(5/5) => .8^3 + .2^2 * C(5/3) + .8 ^ 4 * .2 * C(5/4) + .8^5 * C(5/5)
+P(3/5) + P(4/5) + P(5/5) => .8^3 * .2^2 * C(5/3) + .8 ^ 4 * .2 * C(5/4) + .8^5 * C(5/5)
                             20.48 + 40.96 + 32.77 = 94.21 to get 3 out of 5 baskets.
 ```
 
-### Probability of Two Heads on Three Coins
-Probability of flipping examtrly two heads in three coins:
+### Probability of Two Heads on Three Flips
+Probability of flipping exactly two heads in three coins:
 ```
 P(2/3) => .5 ^2 * .5 ^1 = .125 * C(3/2) = .125 * 3 = .375
+```
+
+### Probability of Three Head in Five Flips
+```
+P(3/5) = .5^3 * .5 ^2 * C(5/3) =  .125 * .25 * 10 = .3125
 ```
 
 ## Links
