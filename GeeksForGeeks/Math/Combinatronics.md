@@ -28,3 +28,10 @@ P(3/5) + P(4/5) + P(5/5) => .8^3 + .2^2 * C(5/3) + .8 ^ 4 * .2 * C(5/4) + .8^5 *
 ```
 
 ### Probability of Two Heads on Three Coins
+Probability of flipping examtrly two heads in three coins:
+```
+P(2/3) => .5 ^2 * .5 ^1 = .125 * C(3/2) = .125 * 3 = .375
+```
+
+## Links
+* https://www.khanacademy.org/math/precalculus/prob-comb - Khan Academy
