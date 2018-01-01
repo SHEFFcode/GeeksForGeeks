@@ -126,7 +126,9 @@ links to relevant resources.
 ### Mathematics
 * Probability
 * Combinatronics
+  * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Math/Combinatronics.md)
 * n choose k problems
+  * [Theory](https://github.com/SHEFFcode/GeeksForGeeks/blob/master/GeeksForGeeks/Math/NChooseK.md)
 
 ### Operating Systems
 * Basics
