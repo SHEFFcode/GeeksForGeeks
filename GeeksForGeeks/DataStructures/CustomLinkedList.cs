@@ -32,7 +32,8 @@ namespace GeeksForGeeks.DataStructures
             if (headNode.data == null)
             {
                 headNode.data = data;
-            } else 
+            } 
+            else 
             {
                 var nodeToInsert = new Node(data);
                 tailNode.next = nodeToInsert;

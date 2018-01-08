@@ -29,8 +29,8 @@ On the graph the longest path from q to t is either q->s->t or q->r->t, however 
 Etc. You can see how the results of the same calulation are getting recuomputed time and time again.
 
 ## Remembering the results of subproblems can be done in one of two ways:
-a) Memoization (Top Down) - same as recursive algo, but it checks a hash table before doing any computations. Table is filled on demand.
-b) Tabulation (Bottom Up) - builds a table from the bottom up and returns the last item from the table. All values in the table must be filled.
+* a) Memoization (Top Down) - same as recursive algo, but it checks a hash table before doing any computations. Table is filled on demand.
+* b) Tabulation (Bottom Up) - builds a table from the bottom up and returns the last item from the table. All values in the table must be filled.
 
 
 
