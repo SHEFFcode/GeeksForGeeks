@@ -1,19 +1,6 @@
 ﻿<Properties StartupConfiguration="{464CAC26-E134-4F4C-B44D-669B76CAB87B}|Default">
   <MonoDevelop.Ide.ItemProperties.GeeksForGeeks PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="GeeksForGeeks/DataStructures/CustomHash.cs">
-    <Files>
-      <File FileName="GeeksForGeeks/Greedy/DitkasAlgo.cs" Line="1" Column="1" />
-      <File FileName="GeeksForGeeks/Program.cs" Line="140" Column="50" />
-      <File FileName="GeeksForGeeks/Greedy/FractionalKnapsack.cs" Line="34" Column="1" />
-      <File FileName="GeeksForGeeks/DataStructures/CustomLinkedList.cs" Line="59" Column="10" />
-      <File FileName="GeeksForGeeks/DataStructures/CustomStack.cs" Line="107" Column="19" />
-      <File FileName="GeeksForGeeks/DataStructures/CustomQueue.cs" Line="13" Column="23" />
-      <File FileName="GeeksForGeeks/DataStructures/CustomHash.cs" Line="91" Column="14" />
-      <File FileName="GeeksForGeeks/DataStructures/CustomBinarySearchTree.cs" Line="117" Column="1" />
-      <File FileName="GeeksForGeeks/DataStructures/BFSGraph.cs" Line="9" Column="43" />
-      <File FileName="GeeksForGeeks/DataStructures/Graph.cs" Line="50" Column="10" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
